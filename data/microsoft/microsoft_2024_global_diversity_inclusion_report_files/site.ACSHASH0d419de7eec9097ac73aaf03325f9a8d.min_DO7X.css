@@ -1,0 +1,3 @@
+.edit-mode .modal-dialog:before{height:100%}
+.modal-content.modal-content-black .modal-header .close::before{color:#000}
+.modal-content.modal-content-white .modal-header .close::before{color:#fff}

@@ -1,0 +1,276 @@
+/* ========================================
+   ACCESSIBILITY STYLES
+   WCAG 2.2 AA Compliant Focus Indicators
+   ======================================== */
+
+/* Skip Links */
+.skip-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #0078D4;
+    color: white;
+    padding: 8px 16px;
+    z-index: 100000;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 500;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+}
+
+/* Base Focus Style - Consistent with Related Questions */
+:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    border-radius: 4px;
+}
+
+/* Remove default browser outline */
+*:focus {
+    outline: none;
+}
+
+/* Search Input Focus */
+.nlweb-searchForm input[type="text"]:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: -2px !important;
+    border-radius: 8px;
+}
+
+/* Search Button Focus */
+.nlweb-searchForm button:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    border-radius: 50%;
+}
+
+/* Related Questions Focus - Enhanced */
+.related-questions .question:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    border: solid 1px #0078D4 !important;
+    box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.1);
+}
+
+/* Card Links Focus - Style the parent card when link receives focus */
+.card .clickarea__link:focus-visible,
+.clickarea .clickarea__link:focus-visible,
+.clickarea__link:focus-visible,
+.clickarea__link:focus-visible *,
+.clickarea__link:focus * {
+    outline: none !important; /* Remove outline from the link itself and its children */
+    box-shadow: none !important; /* Remove any box-shadow */
+}
+
+.clickarea:has(.clickarea__link:focus-visible) {
+    outline: none !important; /* Remove default outline */
+    box-shadow: 0 0 0 2px #0078D4, 0 0 0 8px rgba(0, 120, 212, 0.1) !important; /* Inner border + outer glow for spacing */
+    border-radius: 8px;
+}
+
+/* Fallback for browsers that don't support :has() */
+@supports not selector(:has(*)) {
+    .card .clickarea__link:focus-visible {
+        outline: 2px solid #0078D4 !important;
+        outline-offset: 2px !important;
+        border-radius: 8px;
+    }
+}
+
+/* Timeline Entry Links Focus */
+.timeline__entry a:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    border-radius: 4px;
+}
+
+/* People Section Focus */
+.people:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    background: #F0F7FF !important;
+}
+
+/* Filter Buttons Focus */
+.filter:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+    transform: scale(1.05);
+}
+
+/* Dropdown Items Focus */
+.nlweb-dropdown-item:focus-visible,
+.nlweb-dropdown-suggestion:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: -2px !important;
+    background: #F0F7FF !important;
+}
+
+/* Chat Response Links Focus */
+.chat-bubble a:focus-visible {
+    outline: 2px solid #FFFFFF !important;
+    outline-offset: 2px !important;
+    border-radius: 4px;
+    text-decoration: underline !important;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    :focus-visible {
+        outline-width: 3px !important;
+        outline-offset: 3px !important;
+    }
+
+    .filter.active {
+        outline: 2px solid #FFFFFF !important;
+        outline-offset: -2px !important;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .filter:focus-visible {
+        transform: none !important;
+    }
+}
+
+/* Screen Reader Only Content */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Focus Trap Indicator for Modal/Dropdown */
+.focus-trap-active {
+    position: relative;
+}
+
+.focus-trap-active::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Keyboard Navigation Indicators */
+.keyboard-navigating :focus-visible {
+    box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.2) !important;
+}
+
+/* Loading State Announcements */
+.loading-announcement {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Error Focus States */
+.error:focus-visible,
+.invalid:focus-visible {
+    outline-color: #D13438 !important;
+}
+
+/* Success Focus States */
+.success:focus-visible {
+    outline-color: #107C10 !important;
+}
+
+/* Exceptions for inline text links */
+p a,
+.chat-bubble a,
+.card p a {
+    min-height: auto;
+    min-width: auto;
+}
+
+/* Focus visible on scrollable regions */
+[tabindex="0"]:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: 2px !important;
+}
+
+/* Ensure proper contrast for placeholder text */
+input::placeholder {
+    color: #666666;
+    opacity: 1;
+}
+
+/* Enhanced focus for form controls */
+input[type="text"]:focus-visible,
+input[type="search"]:focus-visible,
+input[type="email"]:focus-visible,
+input[type="tel"]:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid #0078D4 !important;
+    outline-offset: -2px !important;
+    box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.1);
+}
+
+/* Hover states should be different from focus states */
+button:hover:not(:focus-visible),
+a:hover:not(:focus-visible),
+.filter:hover:not(:focus-visible),
+.question:hover:not(:focus-visible) {
+    opacity: 0.9;
+}
+
+/* Active states */
+button:active,
+a:active,
+.filter:active,
+.question:active {
+    transform: scale(0.98);
+}
+
+/* Disabled state styling */
+[disabled],
+[aria-disabled="true"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Focus management for iframe integration */
+.iframe-focus-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0078D4 0%, #106EBE 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: 10000;
+}
+
+.iframe-focus-active .iframe-focus-indicator {
+    transform: scaleX(1);
+}

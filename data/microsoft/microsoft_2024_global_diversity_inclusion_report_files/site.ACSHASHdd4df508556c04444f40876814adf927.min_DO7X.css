@@ -1,0 +1,7 @@
+.edit-mode .modal-dialog:before{height:100%}
+.modal-body .mt-4.center-align .link-group{text-align:center}
+.modal-body .mt-4.left-align .link-group{text-align:left}
+.modal-body .mt-4.right-align .link-group{text-align:right}
+.modal-body .glyph-arrow .h1::before,.modal-body .glyph-arrow .h2::before,.modal-body .glyph-arrow .h3::before,.modal-body .glyph-arrow .h4::before,.modal-body .glyph-arrow .h5::before,.modal-body .glyph-arrow .h6::before{content:"";font-family:MWF-FLUENT-ICONS;font-weight:400;line-height:1;display:inline-block;transform:rotate(90deg);font-size:.75em}
+.modal.is-vsb-modal .link-group{display:flex;flex-direction:column}
+.modal.is-vsb-modal .link-group>a,.modal.is-vsb-modal .link-group>button{text-align:center;margin-left:0;margin-right:0}

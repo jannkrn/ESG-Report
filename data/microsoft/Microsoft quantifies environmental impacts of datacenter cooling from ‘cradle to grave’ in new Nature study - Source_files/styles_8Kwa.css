@@ -1,0 +1,36 @@
+.wp-media-manager__wrapper {
+    padding-right: 30px;
+}
+
+.wp-media-manager__wrapper * {
+    box-sizing: border-box;
+}
+
+.wp-media-manager__panel {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.05), 0 2px 1px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+}
+
+.wp-media-manager__row {
+    padding: 1.5rem;
+    border-bottom: 1px solid #EBEFF3;
+}
+
+.wp-media-manager__panel h3 {
+    margin: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1D2939;
+}
+
+.wp-media-manager__panel button {
+    background: none; 
+    border: none;
+}
+
+.wp-media-manager__panel table tr td {
+    padding-right: 20px;
+}

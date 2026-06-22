@@ -1,0 +1,11 @@
+div.page-nav-container.theme-light{--ds-page-nav-button-text-color-default:white;--ds-page-nav-button-background-color-default:#0736c3;--ds-page-nav-button-background-color-hover-default:#011a64}
+div.page-nav-container.theme-night{--ds-page-nav-button-text-color-default:black;--ds-page-nav-button-background-color-default:#3dcbff;--ds-page-nav-button-background-color-hover-default:#c2efff}
+page-nav moray-anchor[slot="cta-button"]{--ds-button-color:var(--ds-page-nav-button-text-color,var(--ds-page-nav-button-text-color-default));--ds-button-background-color:var(--ds-page-nav-button-background-color,var(--ds-page-nav-button-background-color-default));--ds-button-hover-color:var(--ds-button-color);--ds-button-hover-background-color:var(--ds-page-nav-button-background-color-hover,var(--ds-page-nav-button-background-color-hover-default))}
+page-nav moray-anchor[slot="cta-button"][aria-disabled="true"]{opacity:.4}
+page-nav moray-anchor[slot="cta-button"][aria-disabled="true"]::part(base):hover{cursor:not-allowed !important}
+@media(forced-colors:active){@media(prefers-color-scheme:light){div.page-nav-container.theme-night moray-icon[slot="first"] img{filter:invert(1)}
+}
+@media(prefers-color-scheme:dark){div.page-nav-container.theme-light moray-icon[slot="first"] img{filter:invert(1)}
+}
+}
+page-nav moray-anchor[appearance^='action-trigger']:focus,page-nav moray-anchor[appearance^='action-trigger']:hover{border-bottom:.25rem solid}

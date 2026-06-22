@@ -1,0 +1,20 @@
+.f-search-opened #filters-rss {
+  display: none;
+}
+
+#filters-rss a {
+  display: inline-block;
+  padding: 17px;
+}
+
+@media ( min-width: 860px ) {
+  #filters-rss a {
+    padding: 21px;
+  }
+}
+
+#filters-rss img {
+  display: block;
+  width: 1em;
+  height: 1em;
+}

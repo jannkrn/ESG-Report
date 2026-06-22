@@ -1,0 +1,1 @@
+$(function(){$(".modal-component .modal").each(function(a,b){a=$(b).find(":header");b=$(b).find(".link-group \x3e a");0<b.length&&0<a.length&&(b.attr("data-bi-EhN",a.text()),b.attr("data-bi-hN",a.text()));b.attr("data-bi-compNm","Modal")})});$(document).ready(function(){$(".modal-trigger").on("keypress",function(a){a=a.charCode||a.keyCode;32!==a&&13!==a||this.click()})});

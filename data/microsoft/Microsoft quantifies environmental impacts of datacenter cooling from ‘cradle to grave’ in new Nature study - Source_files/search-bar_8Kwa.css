@@ -1,0 +1,525 @@
+/* Search bar styles shared between iframe and shortcode */
+:root {
+    /* Responsive spacing */
+    --spacing-xs: clamp(8px, 2vw, 12px);
+    --spacing-sm: clamp(12px, 2.5vw, 16px);
+    --spacing-md: clamp(16px, 3vw, 24px);
+    --spacing-lg: clamp(24px, 4vw, 32px);
+    --spacing-xl: clamp(32px, 5vw, 48px);
+    
+    /* Responsive typography */
+    --font-xs: clamp(10px, 2vw, 11px);
+    --font-sm: clamp(12px, 2.2vw, 14px);
+    --font-base: clamp(14px, 2.5vw, 16px);
+    --font-lg: clamp(16px, 3vw, 18px);
+}
+
+.nlweb-search-iframe {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 88px;
+    height: calc(100vh - 88px); /* Fallback for older browsers */
+    height: calc(100dvh - 88px); /* Dynamic viewport height - accounts for iOS Safari URL bar */
+    z-index: 500;
+    border: none;
+    background: #fff;
+}
+
+/* Close button for iframe */
+.nlweb-iframe-close-btn {
+    position: fixed;
+    top: 100px;
+    right: 24px;
+    z-index: 501;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #000;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s;
+    padding: 4px;
+}
+
+.nlweb-iframe-close-btn:hover {
+    opacity: 0.6;
+}
+
+.nlweb-iframe-close-btn:focus {
+    outline: 2px solid #0078d4;
+    outline-offset: 2px;
+}
+
+.nlweb-iframe-close-btn svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Larger screens (860px and up) */
+@media (min-width: 860px) {
+    .nlweb-search-iframe {
+        top: 54px;
+        height: calc(100vh - 54px);
+        height: calc(100dvh - 54px);
+    }
+    .nlweb-iframe-close-btn {
+        top: 70px;
+    }
+}
+
+/* WordPress admin bar adjustments (when user is logged in) */
+/* Mobile/Tablet (782px and lower) - admin bar is 46px */
+.admin-bar .nlweb-search-iframe {
+    top: calc(88px + 46px);
+    height: calc(100vh - 88px - 46px);
+    height: calc(100dvh - 88px - 46px);
+}
+.admin-bar .nlweb-iframe-close-btn {
+    top: calc(104px + 46px);
+}
+
+/* Tablet/Desktop (783px and up) - admin bar is 32px */
+@media (min-width: 783px) {
+    .admin-bar .nlweb-search-iframe {
+        top: calc(88px + 32px);
+        height: calc(100vh - 88px - 32px);
+        height: calc(100dvh - 88px - 32px);
+    }
+    .admin-bar .nlweb-iframe-close-btn {
+        top: calc(104px + 32px);
+    }
+}
+
+/* Desktop (860px and up) with admin bar */
+@media (min-width: 860px) {
+    .admin-bar .nlweb-search-iframe {
+        top: calc(54px + 32px);
+        height: calc(100vh - 54px - 32px);
+        height: calc(100dvh - 54px - 32px);
+    }
+    .admin-bar .nlweb-iframe-close-btn {
+        top: calc(70px + 32px);
+    }
+}
+.nlweb-search-button {
+    outline: 0;
+    width: 34px;
+    height: 34px;
+    transition: color .1s, background-color .1s;
+    border: 0;
+    background: transparent;
+    margin-right: 6px;
+    margin-top: 0;
+    padding: 15px 9px 30px;
+}
+.nlweb-search-button:after{
+    font-family: "MWF-MDL2";
+    content: "";
+    forced-color-adjust: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    vertical-align: sub;
+}
+.nlweb-search-button span {
+    display: none;
+}
+
+/* Search Form Styles */
+.nlweb-searchForm {
+    border-radius: 8px;
+    border: solid 1px transparent;
+    background: #EEEEEE;
+    margin-bottom: var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+/* Shortcode search bars - remove margin from form since disclaimer has it */
+form[data-nlweb-search-bar="true"].nlweb-searchForm {
+    margin-bottom: 0;
+}
+
+/* Add margins only for shortcode search bars on the page (not inside iframes) - only on larger screens */
+@media (min-width: 769px) {
+    form[data-nlweb-search-bar="true"].nlweb-searchForm {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: calc(100% - 40px);
+    }
+}
+
+.nlweb-searchForm:focus-within {
+    border-color: #D0D0D0;
+}
+
+.nlweb-searchForm.is-light {
+    background: #fff;
+}
+
+.nlweb-searchForm .icon {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: var(--spacing-sm);
+}
+
+.nlweb-searchForm input[type=text] {
+    padding: var(--spacing-sm) calc(var(--spacing-lg) + 20px);
+    font-size: 16px; /* Minimum 16px to prevent iOS zoom on focus */
+    width: 100%;
+    border: none;
+    background: none;
+    flex-grow: 1;
+    min-height: 44px; /* Touch-friendly */
+    font-family: inherit;
+    color: #000 !important; /* Ensure text is visible */
+}
+
+.nlweb-searchForm input[type=text]::placeholder {
+    color: #666 !important; /* Ensure placeholder is visible */
+    opacity: 1;
+}
+
+.nlweb-searchForm button {
+    border: none;
+    background: none;
+    height: 24px; 
+    width: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: var(--spacing-sm);
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown styles */
+.nlweb-search-dropdown {
+    position: absolute;
+    top: 104%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #D0D0D0;
+    border-top: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 400;
+    max-height: 50vh;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    opacity: 0;
+    transform: translateY(-10px) scaleY(0.95);
+    transform-origin: top center;
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    pointer-events: none;
+}
+
+.nlweb-search-dropdown.active {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+    pointer-events: auto;
+    overflow-y: auto;
+}
+
+.nlweb-dropdown-item {
+    padding: 12px var(--spacing-md);
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: background-color 0.15s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.nlweb-dropdown-item:last-child {
+    margin-bottom: 8px;
+}
+
+.nlweb-dropdown-item:hover {
+    background: #f8f8f8;
+}
+
+/* Staggered animation for dropdown items */
+.nlweb-search-dropdown.active .nlweb-dropdown-item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-item:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-item:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-item:nth-child(3) {
+    transition-delay: 0.15s;
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-item:nth-child(4) {
+    transition-delay: 0.2s;
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-item:nth-child(5) {
+    transition-delay: 0.25s;
+}
+
+.nlweb-dropdown-item-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    background: #e0e0e0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nlweb-dropdown-item-icon.has-image {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.nlweb-dropdown-item-icon.has-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #e0e0e0;
+    transition: opacity 0.2s ease;
+}
+
+.nlweb-dropdown-item-icon.has-image.is-loaded {
+    opacity: 1;
+}
+
+.nlweb-dropdown-item-icon.has-image.is-loaded::before {
+    opacity: 0;
+}
+
+.nlweb-dropdown-header {
+    padding: 20px var(--spacing-md) 0 var(--spacing-md);
+    margin-bottom: 8px;
+    font-size: var(--font-xs);
+    font-weight: normal;
+    color: #9E9E9E;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.nlweb-search-dropdown.active .nlweb-dropdown-header {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.02s;
+}
+
+.nlweb-dropdown-item-content {
+    flex: 1;
+}
+
+.nlweb-dropdown-item-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.nlweb-dropdown-item-desc {
+    font-size: 12px;
+    color: #666;
+    opacity: 0.8;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+/* Autocomplete suggestions styles */
+
+.nlweb-dropdown-item.nlweb-category-item {
+    cursor: pointer;
+}
+
+.nlweb-dropdown-item.nlweb-category-item:hover {
+    background: #f8f8f8;
+}
+
+.nlweb-dropdown-suggestions {
+    display: flex;
+    flex-direction: column;
+}
+
+.nlweb-dropdown-suggestion {
+    padding: 10px var(--spacing-md);
+    padding-left: calc(var(--spacing-md) + 36px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: background-color 0.15s ease;
+    position: relative;
+}
+
+.nlweb-dropdown-suggestion:hover,
+.nlweb-dropdown-suggestion.selected {
+    background: #f8f8f8;
+}
+
+/* Streaming suggestion animations */
+.nlweb-suggestion-streaming {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nlweb-suggestion-streaming.nlweb-suggestion-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nlweb-dropdown-item.selected {
+    background: #f8f8f8;
+}
+
+.nlweb-suggestion-icon {
+    position: absolute;
+    left: var(--spacing-md);
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+
+.nlweb-dropdown-suggestion span {
+    font-size: 14px;
+    color: #333;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.4;
+}
+
+.nlweb-dropdown-suggestion-skeleton {
+    padding: 10px var(--spacing-md);
+    padding-left: calc(var(--spacing-md) + 36px);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    height: 39px;
+}
+
+.skeleton-icon-square {
+    position: absolute;
+    left: var(--spacing-md);
+    width: 16px;
+    height: 16px;
+    background: #e0e0e0;
+    border-radius: 2px;
+}
+
+/* Dropdown error message */
+.nlweb-dropdown-error {
+    padding: 16px var(--spacing-md);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #d13438;
+    font-size: 14px;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.4;
+}
+
+.nlweb-dropdown-error-icon {
+    flex-shrink: 0;
+    color: #d13438;
+}
+
+/* Skeleton animation and base styles */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s ease-in-out infinite;
+    border-radius: 4px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Responsive breakpoints */
+@media (min-width: 641px) {
+    .nlweb-searchForm input[type=text] {
+        font-size: var(--font-lg);
+        padding: var(--spacing-md) calc(var(--spacing-xl) + 20px);
+    }
+}
+
+@media (min-width: 1367px) {
+    .nlweb-searchForm input[type=text] {
+        padding: 20px 50px;
+        font-size: 18px;
+    }
+
+    .nlweb-searchForm .icon {
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        left: 20px;
+    }
+
+    .nlweb-searchForm button {
+        height: 24px;
+        width: 24px;
+        right: 20px;
+    }
+}
+
+/* Scroll lock for when iframe modal is open */
+body.nlweb-scroll-locked {
+    overflow: hidden !important;
+    position: fixed !important;
+    width: 100% !important;
+    /* top is set dynamically via JS to preserve scroll position */
+}
+
+/* Search disclaimer styles (for shortcode) */
+.nlweb-search-disclaimer {
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: var(--spacing-lg);
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.nlweb-search-disclaimer a {
+    color: #0067B8 !important;
+}

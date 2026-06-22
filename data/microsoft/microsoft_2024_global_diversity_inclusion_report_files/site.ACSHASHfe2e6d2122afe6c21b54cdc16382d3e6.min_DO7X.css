@@ -1,0 +1,12 @@
+.carousel-sneak-peek .video-trigger{vertical-align:middle;display:inline-flex;align-items:center;gap:10px;position:relative}
+.carousel-sneak-peek .video-trigger.cta{margin-left:26px}
+.carousel-sneak-peek .video-trigger.cta::before{position:absolute;left:-26px;right:auto}
+.sneakpeekcontentcardscarousel .sr-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal !important}
+.carousel-sneak-peek .video-trigger.cta::after{content:none}
+html[dir=rtl] .carousel-sneak-peek .video-trigger.glyph-prepend-play::before{transform:rotate(180deg)}
+html[dir=rtl] .carousel-sneak-peek .video-trigger.cta{margin-right:26px;margin-left:0}
+html[dir=rtl] .carousel-sneak-peek .video-trigger.cta::before{position:absolute;right:-26px;left:auto}
+@media screen and (min-width:860px){.carousel-sneak-peek.carousel-content-cards .carousel-controls .carousel-control-next,.carousel-sneak-peek.carousel-content-cards .carousel-controls .carousel-control-prev{transform:scale(0.902)}
+}
+.carousel-sneak-peek.carousel-content-cards .arrow-white.carousel-controls .carousel-control-next::after,.carousel-sneak-peek.carousel-content-cards .arrow-white.carousel-controls .carousel-control-prev::after{color:white}
+.carousel-sneak-peek.carousel-content-cards .arrow-white.carousel-controls .carousel-indicators li,.carousel-sneak-peek.carousel-content-cards .arrow-white.carousel-controls .carousel-indicators li::after{color:white}
