@@ -1,4 +1,4 @@
-company;source_name;source_type;url;published_date;esg_area;used_for_datanxt;notes;
+company;source_name;source_type;url;published_date;esg_area;used_for_datanxt;notes;notes2
 Microsoft;Microsoft Annual Report 2025;Annual Report;https://www.microsoft.com/investor/reports/ar25/download-center/ ;2025;"Social; Governance";yes;"Annual financial and business report; contains information on human capital, business risks and corporate governance.";
 Microsoft;Microsoft 2025 Proxy Statement;Proxy Statement;https://www.microsoft.com/en-us/investor/annual-meeting;2025;Governance;yes;Information on board composition, executive compensation, shareholder voting and governance oversight.;
 Microsoft;Microsoft quantifies environmental impacts of datacenter cooling;Company news / research article;https://news.microsoft.com/source/features/sustainability/microsoft-quantifies-environmental-impacts-of-datacenter-cooling-from-cradle-to-grave-in-new-nature-study/;01.05.2025;Environmental;yes;Information on data-centre cooling, energy demand, water consumption and lifecycle emissions.;
