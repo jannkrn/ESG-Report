@@ -4,7 +4,7 @@ This folder contains the final integrated report combining the Python text-analy
 
 Files:
 
-- `Final_ESG_Report_Analysis_Together.docx`: final combined report with embedded visualizations.
+- `Final_ESG_Report_Analysis_Together_with_metric_definitions.docx`: final combined report with embedded visualizations, metric definitions, and synthesis.
 - `together_report_audit.txt`: structural DOCX audit.
 - `figures/`: PNG chart files embedded in the report.
 
