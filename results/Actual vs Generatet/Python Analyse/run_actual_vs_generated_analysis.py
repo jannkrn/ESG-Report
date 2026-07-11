@@ -9,6 +9,8 @@ import shutil
 import zipfile
 from collections import Counter
 from datetime import date
+from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 
 import pandas as pd
@@ -49,7 +51,7 @@ ACTUAL_FILES = {
         REPORTS_ACTUAL / "microsoft_2025_environmental_sustainability_report.pdf",
         REPORTS_ACTUAL / "microsoft_2025_impact_summary.pdf",
     ],
-    "SAP": [REPORTS_ACTUAL / "SAP Integrated Report 2025.pdf"],
+    "SAP": [REPORTS_ACTUAL / "SAP 2025 Annual Report Form 20-F.html"],
     "Zalando": [REPORTS_ACTUAL / "zalando-se_en_full-csrd-esrs-report_annual-report_2025.pdf"],
 }
 
@@ -298,6 +300,49 @@ def extract_pdf_text(path: Path) -> tuple[str, int]:
     return "\n".join(parts), len(reader.pages)
 
 
+class TextHTMLParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.parts: list[str] = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs) -> None:
+        if tag.lower() in {"script", "style", "ix:header"}:
+            self.skip_depth += 1
+        elif tag.lower() in {"p", "div", "tr", "li", "br", "h1", "h2", "h3", "h4", "td", "th"}:
+            self.parts.append(" ")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() in {"script", "style", "ix:header"} and self.skip_depth:
+            self.skip_depth -= 1
+        elif tag.lower() in {"p", "div", "tr", "li", "h1", "h2", "h3", "h4"}:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.skip_depth and data.strip():
+            self.parts.append(data)
+
+    def text(self) -> str:
+        raw = unescape(" ".join(self.parts))
+        raw = re.sub(r"[ \t\r\f\v]+", " ", raw)
+        raw = re.sub(r"\n\s+", "\n", raw)
+        return raw.strip()
+
+
+def extract_html_text(path: Path) -> str:
+    parser = TextHTMLParser()
+    parser.feed(path.read_text(encoding="utf-8", errors="ignore"))
+    return parser.text()
+
+
+def extract_actual_text(path: Path) -> tuple[str, object]:
+    if path.suffix.lower() == ".pdf":
+        return extract_pdf_text(path)
+    if path.suffix.lower() in {".htm", ".html"}:
+        return extract_html_text(path), "SEC HTML filing"
+    raise ValueError(f"Unsupported actual report type: {path}")
+
+
 def tokenize(text: str) -> list[str]:
     return [match.group(0).lower().strip("-'") for match in TOKEN_RE.finditer(text)]
 
@@ -347,11 +392,14 @@ def build_corpus() -> tuple[dict[tuple[str, str], str], list[dict[str, object]]]
         )
 
         actual_parts: list[str] = []
-        page_count = 0
+        page_count: int | str = 0
         for path in ACTUAL_FILES[company]:
-            text, pages = extract_pdf_text(path)
+            text, pages = extract_actual_text(path)
             actual_parts.append(text)
-            page_count += pages
+            if isinstance(pages, int) and isinstance(page_count, int):
+                page_count += pages
+            else:
+                page_count = str(pages)
         actual_text = "\n\n".join(actual_parts)
         corpus[(company, "Actual")] = actual_text
         (TEXT_DIR / f"{company}_actual.txt").write_text(actual_text, encoding="utf-8")
@@ -1038,7 +1086,11 @@ def build_llm_doc(metrics: pd.DataFrame, esg: pd.DataFrame, tone: pd.DataFrame, 
 
     out = LLM_DIR / "Generated_vs_Actual_LLM_Analysis.docx"
     LLM_DIR.mkdir(parents=True, exist_ok=True)
-    doc.save(out)
+    try:
+        doc.save(out)
+    except PermissionError:
+        out = LLM_DIR / "Generated_vs_Actual_LLM_Analysis_Final.docx"
+        doc.save(out)
     return out
 
 

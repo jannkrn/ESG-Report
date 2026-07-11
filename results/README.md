@@ -19,9 +19,9 @@ ESG reporting quality depends on whether disclosures cover material environmenta
 
 ## Main empirical findings
 
-- The generated reports are much shorter than the official reports. Across the four companies, generated report length ranges from 0.86% to 236.73% of the corresponding official report.
-- The closest generated-vs-actual vocabulary match is Amazon by TF-IDF cosine similarity (0.2964).
-- The lowest generated-vs-actual vocabulary match is SAP (0.1147), indicating a larger difference in framing or disclosure vocabulary.
+- The generated reports are much shorter than the official reports. Across the four companies, generated report length ranges from 0.84% to 2.51% of the corresponding official report.
+- The closest generated-vs-actual vocabulary match is Microsoft by TF-IDF cosine similarity (0.2954).
+- The lowest generated-vs-actual vocabulary match is SAP (0.2473), indicating a larger difference in framing or disclosure vocabulary.
 - Official reports contain more detailed framework language, more disclosure-boundary information, more tables, and more company-specific evidence. Generated reports are clearer as compact summaries but weaker as audit-ready disclosures.
 - Generated reports often show high numeric density per 1,000 words because they are short and condensed. This should not be confused with greater evidence depth; official reports contain much more total quantified disclosure.
 
@@ -50,11 +50,3 @@ The comparison shows why corporate ESG disclosure is difficult to reproduce with
 ## Reproducibility
 
 Use `Actual vs Generatet/Python Analyse/requirements.txt` and run `analysis.ipynb`. The notebook uses relative paths and expects the repository structure to contain `reports/generated` and `reports/actual`.
-
-## Source caveat
-
-Source caveat: the SAP actual benchmark file currently available in reports/actual contains 5 extracted PDF pages. SAP length, similarity, and density metrics therefore reflect that supplied benchmark file and should not be interpreted as a comparison against a full-length SAP sustainability or integrated report unless the source file is replaced.
-
-## DOCX render QA
-
-Visual DOCX render QA was attempted with render_docx.py, but LibreOffice/soffice was not available in this environment (WinError 2). The Word document therefore passed structural QA but was not visually rendered to PNG.

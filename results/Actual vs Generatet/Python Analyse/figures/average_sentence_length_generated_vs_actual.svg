@@ -10,34 +10,34 @@
 <line x1="76" y1="294.0" x2="906" y2="294.0" stroke="#E5E7EB"/>
 <text x="67.0" y="298.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">7</text>
 <line x1="76" y1="236.0" x2="906" y2="236.0" stroke="#E5E7EB"/>
-<text x="67.0" y="240.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">13</text>
+<text x="67.0" y="240.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">15</text>
 <line x1="76" y1="178.0" x2="906" y2="178.0" stroke="#E5E7EB"/>
-<text x="67.0" y="182.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">20</text>
+<text x="67.0" y="182.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">22</text>
 <line x1="76" y1="120.0" x2="906" y2="120.0" stroke="#E5E7EB"/>
-<text x="67.0" y="124.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">27</text>
+<text x="67.0" y="124.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">30</text>
 <line x1="76" y1="62.0" x2="906" y2="62.0" stroke="#E5E7EB"/>
-<text x="67.0" y="66.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">34</text>
+<text x="67.0" y="66.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">37</text>
 <line x1="76" y1="62" x2="76" y2="352" stroke="#9CA3AF"/>
 <line x1="76" y1="352" x2="906" y2="352" stroke="#9CA3AF"/>
 <text transform="rotate(-90 18 207.0)" x="18.0" y="207.0" font-family="Arial, sans-serif" font-size="12" fill="#4B5563" text-anchor="middle" font-weight="600">Words per sentence</text>
-<rect x="158.8" y="204.4" width="34" height="147.6" rx="4" fill="#2563EB"/>
-<text x="175.8" y="198.4" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">17.1</text>
-<rect x="200.8" y="121.2" width="34" height="230.8" rx="4" fill="#0E7490"/>
-<text x="217.8" y="115.2" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">26.8</text>
+<rect x="158.8" y="217.7" width="34" height="134.3" rx="4" fill="#2563EB"/>
+<text x="175.8" y="211.7" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">17.1</text>
+<rect x="200.8" y="142.0" width="34" height="210.0" rx="4" fill="#0E7490"/>
+<text x="217.8" y="136.0" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">26.8</text>
 <text x="179.8" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Amazon</text>
-<rect x="366.2" y="206.0" width="34" height="146.0" rx="4" fill="#2563EB"/>
-<text x="383.2" y="200.0" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.9</text>
-<rect x="408.2" y="119.2" width="34" height="232.8" rx="4" fill="#0E7490"/>
-<text x="425.2" y="113.2" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">27.0</text>
+<rect x="366.2" y="219.1" width="34" height="132.9" rx="4" fill="#2563EB"/>
+<text x="383.2" y="213.1" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.9</text>
+<rect x="408.2" y="140.2" width="34" height="211.8" rx="4" fill="#0E7490"/>
+<text x="425.2" y="134.2" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">27.0</text>
 <text x="387.2" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Microsoft</text>
-<rect x="573.8" y="208.3" width="34" height="143.7" rx="4" fill="#2563EB"/>
-<text x="590.8" y="202.3" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.7</text>
-<rect x="615.8" y="104.6" width="34" height="247.4" rx="4" fill="#0E7490"/>
-<text x="632.8" y="98.6" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">28.7</text>
+<rect x="573.8" y="221.2" width="34" height="130.8" rx="4" fill="#2563EB"/>
+<text x="590.8" y="215.2" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.7</text>
+<rect x="615.8" y="99.8" width="34" height="252.2" rx="4" fill="#0E7490"/>
+<text x="632.8" y="93.8" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">32.1</text>
 <text x="594.8" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">SAP</text>
-<rect x="781.2" y="208.5" width="34" height="143.5" rx="4" fill="#2563EB"/>
-<text x="798.2" y="202.5" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.6</text>
-<rect x="823.2" y="99.8" width="34" height="252.2" rx="4" fill="#0E7490"/>
-<text x="840.2" y="93.8" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">29.2</text>
+<rect x="781.2" y="221.4" width="34" height="130.6" rx="4" fill="#2563EB"/>
+<text x="798.2" y="215.4" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">16.6</text>
+<rect x="823.2" y="122.5" width="34" height="229.5" rx="4" fill="#0E7490"/>
+<text x="840.2" y="116.5" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">29.2</text>
 <text x="802.2" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Zalando</text>
 </svg>

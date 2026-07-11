@@ -1,6 +1,5 @@
-Structural DOCX audit for Generated_vs_Actual_LLM_Analysis.docx
-Paragraphs: 51
+Structural DOCX audit for Generated_vs_Actual_LLM_Analysis_Final.docx
+Paragraphs: 49
 Tables: 1
 Preset: standard_business_brief
 Status: PASS
-Visual DOCX render QA was attempted with render_docx.py, but LibreOffice/soffice was not available in this environment (WinError 2). The Word document therefore passed structural QA but was not visually rendered to PNG.

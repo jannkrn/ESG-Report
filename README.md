@@ -32,3 +32,11 @@ This project develops one reusable DataNXT workflow to generate ESG reports for 
 ## Important rule
 
 The official ESG or sustainability reports are not used as input for the DataNXT workflow. They are only used later to compare them with the AI-generated reports.
+## Final outputs
+
+The final generated-vs-actual analysis is located in `results/Actual vs Generatet`:
+
+* `Python Analyse/`: reproducible notebook, requirements, CSV metrics, extracted text, and visualizations.
+* `LLM Analyse/`: qualitative generated-vs-actual Word analysis.
+* `Together/`: final combined report with embedded visualizations and synthesis of Python and LLM findings.
+

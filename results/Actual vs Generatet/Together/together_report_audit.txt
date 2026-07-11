@@ -1,0 +1,7 @@
+Structural DOCX audit for Final_ESG_Report_Analysis_Together.docx
+Paragraphs: 53
+Tables: 2
+Embedded visuals: 6
+Preset: standard_business_brief
+Status: PASS
+Visual DOCX render QA was attempted with render_docx.py, but LibreOffice/soffice was not available in this environment (WinError 2). The final report passed structural QA and contains embedded visuals, but it was not rendered to PNG in this environment.
