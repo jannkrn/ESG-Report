@@ -1,0 +1,5 @@
+company,tfidf_cosine_generated_vs_actual,jaccard_generated_vs_actual,generated_words_as_pct_of_actual,numeric_density_gap_generated_minus_actual,esg_density_gap_generated_minus_actual,risk_success_gap_generated_minus_actual,generated_strongest_pillar,actual_strongest_pillar
+Amazon,0.2964,0.0615,2.51,-8.09,36.79,1.84,Environmental,Environmental
+Microsoft,0.292,0.0542,2.29,4.81,76.73,1.92,Social,Environmental
+SAP,0.1147,0.034,236.73,-54.84,107.48,0.9,Governance,Governance
+Zalando,0.2797,0.0548,0.86,-0.35,67.14,0.25,Environmental,Governance

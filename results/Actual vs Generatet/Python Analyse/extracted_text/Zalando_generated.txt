@@ -1,0 +1,60 @@
+Zalando ESG Report
+ESG Report 2025/2026 | DataNXT relevant answers and source audit
+Methodology and Data Basis
+This report consolidates the answers marked as relevant in DataNXT with the local source audit in the project folder. Official sustainability and integrated reports are used as benchmark and validation sources; operational annual reports, proxy or AGM documents, risk reports, D&I, AI, data-center documents and selected corporate pages form the working evidence base.
+The reporting cut-off is 11 July 2026. Where figures refer to 2024, this is stated in the text; otherwise the report reflects 2025/2026 documents available during the workflow.
+DataNXT Status
+General Information: relevant answer covering the platform model, ABOUT YOU, 29 markets, 62.0 million active customers and 16,582 employees.
+Environmental: relevant answer covering net zero, Scope 1/2/3, SBTs, 100% renewable electricity, packaging, circularity and ABOUT YOU data gaps.
+Social: relevant answer covering the D&I appendix, Inclusion Index, ERGs, adaptive fashion, audits, complaints and human-rights information.
+Governance: relevant answer based on the annual-report overview, AGM invitation and DSA Risk Report.
+Executive Summary
+Zalando is a European fashion and lifestyle platform company with growing B2C and B2B activities. Its material ESG topics are Scope 3 emissions from products, brand partners, transport and returns; labor and human-rights questions in the value chain; diversity and accessibility; and platform/DSA governance. The ABOUT YOU acquisition creates a major 2025 integration and data gap that should narrow from 2026 onward.
+Key Metrics and ESG Signals
+1. General Information
+Zalando SE is headquartered in Berlin and operates as a European stock corporation. The group positions itself as a leading technology platform for fashion and lifestyle in Europe.
+The business model combines B2C offerings through Zalando, ABOUT YOU and Lounge with B2B services such as ZEOS, SCAYLE, Tradebyte and Highsnobiety. DataNXT reported more than 60 million active customers in 29 markets and more than 600 partners in ZEOS fulfillment.
+The acquisition of ABOUT YOU was completed on 11 July 2025 and expands reach, platform capabilities and data volume. From an ESG perspective, it reduces 2025 comparability because ABOUT YOU continued to apply some of its own policies, targets and data processes.
+2. Environmental
+Zalando pursues net-zero targets for own operations and private labels by 2040 and the remaining value chain by 2050. SBTi targets include a 55% Scope 1/2 reduction by 2033 against a 2022 baseline and Scope 3 reductions in purchased goods and upstream transportation.
+DataNXT reported 2025 Scope 1 emissions of approximately 5,776 tCO2e and Scope 2 market-based emissions of approximately 566 tCO2e. Scope 3 represents 99.5% of total emissions, making private-label and partner decarbonization the main lever.
+Zalando sourced 100% renewable electricity in 2025 excluding ABOUT YOU and operates photovoltaic panels at fulfillment centers such as Lahr, Rotterdam and Verona. Packaging was moved to a 100% paper bag portfolio; average packaging waste per item decreased by 12.3% to 64.0 grams.
+74.1% of in-scope suppliers had set Science Based Targets. The breakdown was 72.9% for brand partners, 92.5% for packaging partners and 90.1% for last-mile delivery partners. Fashion Leap for Climate supports brands in measuring and reducing emissions.
+3. Social
+Zalando combines growth with a diversity and inclusion strategy. The do.BETTER approach evolved into the Inclusive by Design strategy, focusing on people, platform and industry.
+DataNXT reported an Inclusion Index of 69%, 12 Employee Resource Groups, training on equal treatment and unconscious bias, and neurodiversity training for hiring managers reaching 95% of the relevant team.
+Targets include 40-60% women in the top five leadership levels and in tech job families. In 2025, discrimination incidents rose to 13 and employee-channel complaints rose to 234; this may indicate both improved capture and areas requiring management attention.
+Human rights and supply-chain social compliance are addressed through the German Supply Chain Due Diligence Act, UN Guiding Principles, social audits and supplier programs. In 2025, 198 social audit reports from private-label Tier 1 suppliers were evaluated and 27 social-standard audits were conducted in fulfillment areas.
+Customer inclusion is also material. Since 2022, Zalando has offered adaptive fashion across its private labels and selected partner brands, supported by platform accessibility initiatives and partnerships.
+4. Governance
+Zalando uses an SE governance model with Management Board, Supervisory Board and Annual General Meeting. The 2026 AGM is planned as a virtual meeting, with shareholder participation, voting, proxy authorization and counterproposals handled through a protected portal.
+DataNXT reported that the 2025 annual financial statements were approved on 11 March 2026 and that net profit of EUR 836.7 million was proposed to be carried forward. KPMG AG Wirtschaftspruefungsgesellschaft, Berlin, is proposed as auditor for 2026.
+The 2025 DSA Risk Report assesses systemic risks from platform operations as very low overall. Relevant factors include recommender systems, content moderation systems and data-related practices; controls include Notice & Action, brand-protection processes and grievance mechanisms.
+Privacy, GDPR/ePrivacy, information security, bot protection and NoMoreLeaks are identified as controls against data and account risks. Governance risks remain around AI-based recommendations, data protection, product safety, DSA compliance and ABOUT YOU integration.
+ESG Risks, Data Gaps and Priorities
+Scope 3 dominates the environmental footprint; progress depends on brand partners, suppliers, transport providers and customer return behavior.
+The ABOUT YOU integration creates data and policy gaps in 2025, especially for ESRS KPIs.
+Social risks are visible in rising complaints and discrimination reports; at the same time, this may reflect stronger reporting channels.
+DSA, privacy and recommender-system governance remain central even though the aggregate DSA risk level is assessed as very low.
+Prioritized Monitoring Questions
+Which ESG metrics are externally assured in the next reporting cycle, and which statements still rely on management assertions or modeled assumptions?
+How do absolute emissions, energy demand, water impact and Scope 3 categories develop relative to revenue, cloud, platform or logistics growth?
+Which ESG targets are linked to executive compensation, capital allocation, supplier management and product development?
+Which complaints, audits, incidents or stakeholder feedback show the real effectiveness of social and governance programs rather than only process coverage?
+Which DataNXT answers should be deepened with additional primary documents, such as assurance statements, regional environmental metrics, supplier lists or audit reports?
+Source Appendix
+The table lists the most important sources used in the DataNXT workflow and in the local source audit.
+Category | Key statement / metric
+Markets / customers | 29 European markets; 62.0 million active customers in 2025; ABOUT YOU integrated from 11 July 2025.
+Workforce | 2025 average salaried employees: 16,582, up 8.3% year over year.
+Climate | Net zero: own operations and private labels by 2040; remaining value chain by 2050.
+Scope 1/2 | 2025: Scope 1 approx. 5,776 tCO2e; Scope 2 market-based approx. 566 tCO2e; Scope 1/2 down 17.0% vs. 2022.
+Electricity | 100% renewable electricity in 2025 excluding ABOUT YOU; RE100 member.
+D&I | Inclusion Index of 69%; target corridor of 40-60% women in top five leadership levels and tech job families.
+Source | Use
+Zalando Annual Report 2025 | Local: data/zalando/zalando-se_annual-report-2025_eng_261003_s.pdf
+Zalando Sustainability | https://corporate.zalando.com/en/sustainability
+Zalando ESG Reporting and Standards | https://corporate.zalando.com/en/investor-relations/sustainable-investments/esg-reporting-and-standards
+Zalando Inclusive by Design | https://corporate.zalando.com/en/people-planet/diversity-inclusion/our-strategy
+Zalando AGM 2026 | Local: data/zalando/zalando-se_agm-2026_1_einladung-2026.pdf
+Zalando DSA Risk Report 2025 | Local: data/zalando/Zalando SA Risk Report 2025.pdf

@@ -1,0 +1,55 @@
+Microsoft ESG Report
+ESG Report 2025/2026 | DataNXT relevant answers and source audit
+Methodology and Data Basis
+This report consolidates the answers marked as relevant in DataNXT with the local source audit in the project folder. Official sustainability and integrated reports are used as benchmark and validation sources; operational annual reports, proxy or AGM documents, risk reports, D&I, AI, data-center documents and selected corporate pages form the working evidence base.
+The reporting cut-off is 11 July 2026. Where figures refer to 2024, this is stated in the text; otherwise the report reflects 2025/2026 documents available during the workflow.
+DataNXT Status
+General Information: relevant answer covering mission, cloud, productivity, collaboration and personal computing.
+Environmental: relevant answer covering environmental transparency, Scope 3 exposure and digital-company emissions patterns.
+Social: relevant answer covering diversity, inclusion, accessibility and employee survey signals.
+Governance: relevant answer covering board independence, responsible AI, privacy, cybersecurity and digital safety.
+Executive Summary
+Microsoft combines strong financial performance and cloud/AI growth with an ambitious ESG agenda. The main tension is between rapid AI and data-center expansion and the company's own environmental goals. Governance maturity is comparatively high, especially in responsible AI, privacy, cybersecurity, digital safety and board oversight.
+Key Metrics and ESG Signals
+1. General Information
+Microsoft's mission is to empower every person and every organization on the planet to achieve more. The business combines productivity software, cloud platforms, developer tools, operating systems, gaming, devices, LinkedIn, advertising and professional services.
+ESG materiality is concentrated in Azure and data centers, AI products, customer and data responsibility, software supply chains, accessibility of digital services, workforce development and diversity.
+DataNXT summarized Microsoft's business across productivity and collaboration, intelligent cloud and personal computing. Azure is both a growth engine and the center of environmental, cybersecurity and responsible-AI risk.
+2. Environmental
+Microsoft's environmental objectives are carbon negative, water positive, zero waste and ecosystem protection/restoration. These goals become more demanding as cloud and AI workloads increase electricity demand, water use, hardware needs and construction-related emissions.
+The Environmental Sustainability Report highlights progress in water replenishment, waste diversion, packaging recyclability and land protection. Scope 3 remains the largest lever and the largest challenge, particularly through capital goods, hardware, supplier emissions and customer use.
+Microsoft is investing in more efficient data-center design, alternative cooling, renewable energy, hardware circularity and data-driven environmental management. For ESG monitoring, the key question is whether absolute emissions and water impact can decline while AI infrastructure expands.
+3. Social
+Microsoft's social profile is shaped by talent, diversity and inclusion, accessibility, digital safety and skills development. DataNXT noted that every employee sets an annual D&I Core Priority and that the company discloses survey signals on allyship and inclusion.
+D&I reporting includes pay-equity analysis, employee resource groups, inclusion programs, global talent development and accessibility. Accessibility is not only a social program; it is also a product strategy for making digital tools more useful for people with disabilities, schools and organizations.
+Key social risks include AI talent competition, restructuring pressure, employee well-being, ethical technology impacts, disinformation, digital safety and human-rights impacts of digital services.
+4. Governance
+Microsoft's governance combines a majority-independent board, board committees and annual evaluations. DataNXT reported that 11 of 12 directors are independent and that executive sessions are part of the governance process.
+Responsible AI is a core governance field. The 2025 Responsible AI Transparency Report describes board oversight of AI strategy and risk, support from the Environmental, Social and Public Policy Committee, sensitive-use reviews, NIST-oriented risk practices and transparency notes.
+Privacy, cybersecurity, digital safety and AI regulation are material governance topics. The governance architecture is mature, but exposure rises because AI capabilities are being integrated rapidly across products and customer workflows.
+ESG Risks, Data Gaps and Priorities
+AI and cloud growth may pressure environmental goals, energy availability and water strategy.
+Scope 3 emissions, hardware supply chains and customer-use emissions remain difficult to steer.
+Responsible-AI failures, cybersecurity incidents or misuse of digital platforms could affect trust and regulation.
+Data gaps remain around post-AI-boom absolute environmental performance, regional water stress and external proof of social-program outcomes.
+Prioritized Monitoring Questions
+Which ESG metrics are externally assured in the next reporting cycle, and which statements still rely on management assertions or modeled assumptions?
+How do absolute emissions, energy demand, water impact and Scope 3 categories develop relative to revenue, cloud, platform or logistics growth?
+Which ESG targets are linked to executive compensation, capital allocation, supplier management and product development?
+Which complaints, audits, incidents or stakeholder feedback show the real effectiveness of social and governance programs rather than only process coverage?
+Which DataNXT answers should be deepened with additional primary documents, such as assurance statements, regional environmental metrics, supplier lists or audit reports?
+Source Appendix
+The table lists the most important sources used in the DataNXT workflow and in the local source audit.
+Category | Key statement / metric
+Revenue | FY2025 revenue of approximately USD 281.7 billion; growth strongly linked to cloud and AI infrastructure.
+Workforce | Approximately 228,000 employees at the end of FY2025.
+Environmental goals | Carbon negative, water positive, zero waste and ecosystem protection/restoration are core objectives.
+Water | FY2024: approximately 50 million cubic meters of contracted water replenishment.
+Waste / packaging | FY2024: 88.1% operational waste diversion and 94.8% packaging recyclability.
+Responsible AI | The 2025 Transparency Report describes 30 responsible-AI tools with 155 features and board/committee oversight.
+Source | Use
+Microsoft Annual Report 2025 | Local: data/microsoft/microsoft_2025_annual_report.pdf
+Microsoft Environmental Sustainability Report 2025 | https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report/
+Microsoft Responsible AI Transparency Report 2025 | https://www.microsoft.com/en-us/corporate-responsibility/responsible-ai-transparency-report/
+Microsoft Global Diversity & Inclusion | https://www.microsoft.com/en-us/diversity/default
+Microsoft Proxy Statement 2025 | Local: data/microsoft/microsoft_2025_proxy_statement.pdf

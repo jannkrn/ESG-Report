@@ -1,0 +1,56 @@
+Amazon ESG Report
+ESG Report 2025/2026 | DataNXT relevant answers and source audit
+Methodology and Data Basis
+This report consolidates the answers marked as relevant in DataNXT with the local source audit in the project folder. Official sustainability and integrated reports are used as benchmark and validation sources; operational annual reports, proxy or AGM documents, risk reports, D&I, AI, data-center documents and selected corporate pages form the working evidence base.
+The reporting cut-off is 11 July 2026. Where figures refer to 2024, this is stated in the text; otherwise the report reflects 2025/2026 documents available during the workflow.
+DataNXT Status
+General Information: relevant answer based on Amazon Annual Report 2025.
+Environmental: relevant answer covering Amazon Data Centers, AWS efficiency, water, energy and circularity topics.
+Social: relevant answer based on the Amazon Racial Equity Audit and workforce/DEI information.
+Governance: relevant answer based on the Annual Report 2025 and Proxy Statement 2026.
+Executive Summary
+Amazon is a highly scaled platform, retail, cloud and logistics company. Its ESG exposure is therefore unusually broad: the company has the resources to drive renewable energy, electric delivery, water-positive projects, efficiency and supply-chain standards, but the same scale creates material risks around AWS and AI data centers, global logistics, marketplace complexity, labor practices and governance of emerging technologies.
+Key Metrics and ESG Signals
+1. General Information
+Amazon continues to pursue the ambition of being Earth's most customer-centric company. Its operating structure is organized around North America, International and AWS. The main stakeholder groups include consumers, sellers, developers, enterprises, advertisers, content creators and employees.
+2025 was marked by strong revenue growth, accelerating AI investment and major capital expenditure. Revenue rose to USD 717 billion, while AWS reached USD 129 billion and remains both a profitability engine and a key source of infrastructure-related ESG exposure.
+Amazon's strategy is long-term and capital intensive. The company is investing in fulfillment automation, same-day and rural delivery, satellite connectivity, generative AI, proprietary chips and new customer experiences. The ESG question is whether this scale-up can be paired with lower environmental intensity, strong worker safety and controlled technology risk.
+2. Environmental
+Amazon has committed to net zero carbon by 2040 through The Climate Pledge. It reports that electricity consumption is matched with renewable energy, although absolute emissions remain very large because of retail volume, logistics, buildings, data centers and Scope 3 categories.
+AWS is a central environmental topic. Data-center design, liquid-to-chip cooling, proprietary silicon, Graviton instances and server lifecycle management are intended to improve energy efficiency. DataNXT highlighted AWS PUE of 1.15 in 2024 and efficiency gains from Graviton and new data-center architectures.
+Water is material for data centers. Amazon pursues a water-positive target by 2030 and reports progress through replenishment projects. Future ESG monitoring should pay particular attention to regional water-stress exposure, AI workload growth and cooling technology choices.
+Logistics and packaging remain important levers. Electric delivery vans, route optimization, packaging reduction and circularity programs can reduce intensity, but they only partly offset absolute growth in commerce and delivery volumes.
+3. Social
+With roughly 1.525 million employees, Amazon is one of the world's largest private employers. Working conditions, occupational safety, scheduling, promotion pathways, pay, grievance mechanisms and diversity metrics are therefore highly material.
+The DataNXT answer based on the Racial Equity Audit noted that more than 69% of the US workforce is racially or ethnically diverse, with more than 78% diversity in levels L1/L3. Amazon also reports 13 affinity groups and channels for feedback, complaints and appeals.
+Social risks include operational intensity, potential disparities in discipline and promotion outcomes, fulfillment and delivery safety, labor relations, supply-chain labor conditions and human-rights due diligence. Existing mechanisms are visible, but the effectiveness of outcomes remains an important monitoring area.
+4. Governance
+Amazon's board includes Executive Chair Jeff Bezos, CEO Andy Jassy and independent directors with technology, risk, finance and governance experience. The committee structure covers audit, leadership development and compensation, nominating/corporate governance and security.
+DataNXT emphasized board oversight of sustainability, corporate social responsibility, responsible AI, cybersecurity and enterprise risk. This oversight is especially relevant in a cycle of AI and cloud expansion where capital allocation, energy demand, security and societal risk rise at the same time.
+The proxy materials show a long-term, equity-oriented compensation philosophy and limited cash bonuses for named executive officers. From an ESG perspective, the next question is how clearly executive incentives, board agenda items and disclosures are linked to climate, safety, responsible AI and human-rights outcomes.
+ESG Risks, Data Gaps and Priorities
+Absolute emissions and energy demand may continue to rise despite efficiency improvements, particularly because of AI and cloud demand.
+Labor and supply-chain controversies may create reputational, legal and regulatory exposure.
+Responsible AI, privacy and cybersecurity risks increase as AWS and consumer AI applications scale.
+Data gaps remain around regional water impact, Scope 3 attribution, supplier-performance outcomes and externally assured social indicators.
+Prioritized Monitoring Questions
+Which ESG metrics are externally assured in the next reporting cycle, and which statements still rely on management assertions or modeled assumptions?
+How do absolute emissions, energy demand, water impact and Scope 3 categories develop relative to revenue, cloud, platform or logistics growth?
+Which ESG targets are linked to executive compensation, capital allocation, supplier management and product development?
+Which complaints, audits, incidents or stakeholder feedback show the real effectiveness of social and governance programs rather than only process coverage?
+Which DataNXT answers should be deepened with additional primary documents, such as assurance statements, regional environmental metrics, supplier lists or audit reports?
+Source Appendix
+The table lists the most important sources used in the DataNXT workflow and in the local source audit.
+Category | Key statement / metric
+Revenue / segments | 2025 revenue of USD 717 billion; North America USD 426 billion, International USD 162 billion and AWS USD 129 billion.
+Workforce | Approximately 1.525 million employees worldwide; the US workforce is especially diverse in lower job levels.
+Climate framework | The Climate Pledge: net zero carbon by 2040; electricity consumption matched with renewable energy.
+Emissions | The 2025 Sustainability Report reports approximately 80.85 million metric tons CO2e.
+AWS infrastructure | AWS reported a 2024 PUE of 1.15; Graviton can reduce energy use by up to 60% for selected workloads.
+Governance | Board led by Executive Chair Jeff Bezos and CEO Andy Jassy, with audit, governance, compensation and security committees.
+Source | Use
+Amazon Annual Report 2025 | Local: data/amazon/Amazon-2025-Annual-Report.pdf; revenue, segments, strategy and board information.
+Amazon 2025 Sustainability Report | https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf
+Amazon Supply Chain Standards | https://sustainability.aboutamazon.com/amazon-supply-chain-standards-english.pdf
+Amazon Human Rights | https://sustainability.aboutamazon.com/human-rights
+Amazon 2026 Proxy Statement | Local: data/amazon/Amazon.com, Inc. - Amazon-2026-Proxy-Statement.pdf

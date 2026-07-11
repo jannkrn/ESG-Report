@@ -1,0 +1,9 @@
+company,report_type,word_count,sentence_count,avg_sentence_length,unique_terms,lexical_diversity,numeric_mentions,numeric_mentions_per_1000_words
+Amazon,Generated,1061,62,17.11,375,0.5725,46,43.36
+Amazon,Actual,42256,1579,26.76,4565,0.1805,2174,51.45
+Microsoft,Generated,914,54,16.93,319,0.5686,36,39.39
+Microsoft,Actual,39940,1480,26.99,4307,0.1828,1381,34.58
+SAP,Generated,883,53,16.66,311,0.5686,51,57.76
+SAP,Actual,373,13,28.69,145,0.7672,42,112.6
+Zalando,Generated,1115,67,16.64,404,0.6235,110,98.65
+Zalando,Actual,129514,4429,29.24,6241,0.0883,12822,99.0

@@ -1,0 +1,9 @@
+company,report_type,environmental_hits,social_hits,governance_hits,total_esg_hits,esg_hits_per_1000_words,strongest_pillar
+Amazon,Generated,49,40,23,112,105.56,Environmental
+Amazon,Actual,1715,980,211,2906,68.77,Environmental
+Microsoft,Generated,41,51,32,124,135.67,Social
+Microsoft,Actual,2011,256,87,2354,58.94,Environmental
+SAP,Generated,39,23,40,102,115.52,Governance
+SAP,Actual,0,0,3,3,8.04,Governance
+Zalando,Generated,44,41,35,120,107.62,Environmental
+Zalando,Actual,1496,1340,2407,5243,40.48,Governance

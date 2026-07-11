@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="490.0" y="28.0" font-family="Arial, sans-serif" font-size="18" fill="#111827" text-anchor="middle" font-weight="700">E, S, and G Keyword Coverage: Generated vs. Actual</text>
+<rect x="130" y="48" width="14" height="14" rx="2" fill="#2E7D32"/>
+<text x="152.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="start" font-weight="700">E</text>
+<rect x="200" y="48" width="14" height="14" rx="2" fill="#0E7490"/>
+<text x="222.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="start" font-weight="700">S</text>
+<rect x="270" y="48" width="14" height="14" rx="2" fill="#334155"/>
+<text x="292.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="start" font-weight="700">G</text>
+<text x="116.0" y="113.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="700">Amazon Generated</text>
+<rect x="130.0" y="96.0" width="7.6" height="24" fill="#2E7D32"/>
+<rect x="137.6" y="96.0" width="6.2" height="24" fill="#0E7490"/>
+<rect x="143.7" y="96.0" width="3.6" height="24" fill="#334155"/>
+<text x="947.0" y="113.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">112</text>
+<text x="116.0" y="157.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="400">Amazon Actual</text>
+<rect x="130.0" y="140.0" width="265.0" height="24" fill="#2E7D32"/>
+<text x="262.5" y="157.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">1715</text>
+<rect x="395.0" y="140.0" width="151.4" height="24" fill="#0E7490"/>
+<text x="470.7" y="157.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">980</text>
+<rect x="546.4" y="140.0" width="32.6" height="24" fill="#334155"/>
+<text x="562.7" y="157.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">211</text>
+<text x="947.0" y="157.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">2906</text>
+<text x="116.0" y="201.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="700">Microsoft Generated</text>
+<rect x="130.0" y="184.0" width="6.3" height="24" fill="#2E7D32"/>
+<rect x="136.3" y="184.0" width="7.9" height="24" fill="#0E7490"/>
+<rect x="144.2" y="184.0" width="4.9" height="24" fill="#334155"/>
+<text x="947.0" y="201.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">124</text>
+<text x="116.0" y="245.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="400">Microsoft Actual</text>
+<rect x="130.0" y="228.0" width="310.7" height="24" fill="#2E7D32"/>
+<text x="285.3" y="245.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">2011</text>
+<rect x="440.7" y="228.0" width="39.5" height="24" fill="#0E7490"/>
+<text x="460.5" y="245.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">256</text>
+<rect x="480.2" y="228.0" width="13.4" height="24" fill="#334155"/>
+<text x="947.0" y="245.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">2354</text>
+<text x="116.0" y="289.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="700">SAP Generated</text>
+<rect x="130.0" y="272.0" width="6.0" height="24" fill="#2E7D32"/>
+<rect x="136.0" y="272.0" width="3.6" height="24" fill="#0E7490"/>
+<rect x="139.6" y="272.0" width="6.2" height="24" fill="#334155"/>
+<text x="947.0" y="289.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">102</text>
+<text x="116.0" y="333.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="400">SAP Actual</text>
+<rect x="130.0" y="316.0" width="0.0" height="24" fill="#2E7D32"/>
+<rect x="130.0" y="316.0" width="0.0" height="24" fill="#0E7490"/>
+<rect x="130.0" y="316.0" width="0.5" height="24" fill="#334155"/>
+<text x="947.0" y="333.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">3</text>
+<text x="116.0" y="377.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="700">Zalando Generated</text>
+<rect x="130.0" y="360.0" width="6.8" height="24" fill="#2E7D32"/>
+<rect x="136.8" y="360.0" width="6.3" height="24" fill="#0E7490"/>
+<rect x="143.1" y="360.0" width="5.4" height="24" fill="#334155"/>
+<text x="947.0" y="377.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">120</text>
+<text x="116.0" y="421.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="end" font-weight="400">Zalando Actual</text>
+<rect x="130.0" y="404.0" width="231.1" height="24" fill="#2E7D32"/>
+<text x="245.6" y="421.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">1496</text>
+<rect x="361.1" y="404.0" width="207.0" height="24" fill="#0E7490"/>
+<text x="464.6" y="421.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">1340</text>
+<rect x="568.1" y="404.0" width="371.9" height="24" fill="#334155"/>
+<text x="754.1" y="421.0" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700">2407</text>
+<text x="947.0" y="421.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5243</text>
+</svg>

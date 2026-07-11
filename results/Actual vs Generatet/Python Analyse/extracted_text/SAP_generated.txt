@@ -1,0 +1,55 @@
+SAP ESG Report
+ESG Report 2025/2026 | DataNXT relevant answers and source audit
+Methodology and Data Basis
+This report consolidates the answers marked as relevant in DataNXT with the local source audit in the project folder. Official sustainability and integrated reports are used as benchmark and validation sources; operational annual reports, proxy or AGM documents, risk reports, D&I, AI, data-center documents and selected corporate pages form the working evidence base.
+The reporting cut-off is 11 July 2026. Where figures refer to 2024, this is stated in the text; otherwise the report reflects 2025/2026 documents available during the workflow.
+DataNXT Status
+General Information: relevant SAP answer covering cloud, software, services, ATS/Core Services and strategy.
+Environmental: relevant answer covering net zero 2030, data-center efficiency, renewable electricity and e-waste.
+Social: existing relevant D&I answer, supplemented with SAP Social Performance information from the annual/integrated report.
+Governance: relevant answer covering two-tier governance, Code of Ethics, cybersecurity, AI ethics and controls.
+Executive Summary
+SAP has a relatively focused ESG profile: direct environmental impact is lower than in retail or hardware-heavy companies, but cloud operations, customer use, data centers, AI, privacy, ethics and employee engagement are highly material. SAP's 2025 reporting follows ESRS/CSRD structures, which makes the ESG evidence base comparatively robust.
+Key Metrics and ESG Signals
+1. General Information
+SAP is a global enterprise software provider headquartered in Walldorf, Germany. Its business model includes cloud subscriptions, software licenses, support, consulting, training, Business Technology Platform, ERP, SuccessFactors, Ariba, Concur, Fieldglass and Business AI.
+The strategy is cloud-first and increasingly AI-supported. SAP manages performance through indicators such as cloud revenue, cloud and software revenue, current cloud backlog, total revenue, Cloud CSAT, employee engagement, business health culture and GHG emissions.
+DataNXT described SAP through ATS and Core Services and emphasized the transformation toward Cloud ERP, BTP, sovereign cloud, sustainable innovation and digital value creation.
+2. Environmental
+SAP targets net zero by 2030 and has an SBTi-validated pathway requiring at least 90% reduction in gross greenhouse-gas emissions. Scope 1, Scope 2 and particularly Scope 3 from customer use, cloud, suppliers and hardware are material.
+Data-center priorities include renewable electricity, energy efficiency, certifications, cooling, hardware efficiency, waste-heat reuse, e-waste management and engagement with hyperscalers. SAP has sourced renewable electricity for operations since 2014 and is shifting procurement toward power purchase agreements.
+Environmental reporting includes 797 metric tons of e-waste and 764 metric tons diverted. Main risks arise from growing AI and cloud demand, uncertainty in customer-use calculations and dependence on hyperscaler infrastructure.
+3. Social
+SAP's People Agenda links engagement, health, inclusion, equal opportunities and skills to growth. The Employee Engagement Index and Business Health Culture Index are part of non-financial management rather than stand-alone HR indicators.
+SAP reported 111,397 employees in 2025. Workforce data show 39,891 women and 71,503 men; inclusion strategy is supported through D&I programs, #Unfiltered surveys and equal-opportunity components.
+Social risks include talent retention, transformation pressure, skills for AI/cloud, global equal treatment, partner ecosystem conduct and responsible technology development.
+4. Governance
+SAP has the governance structure of a European SE with Supervisory Board, Executive Board and Annual General Meeting. The Integrated Report 2025 includes a CSRD-oriented sustainability statement that connects strategy, risks, targets and metrics.
+DataNXT highlighted the Global Code of Ethics, cybersecurity reporting to board committees, SGSC structures, ISO certifications, SOC reports, data protection and controls. Governance maturity is especially important because SAP supports mission-critical customer processes.
+AI ethics, privacy, security and cloud operations are central governance risks. SAP's Global AI Ethics Policy and trust/security controls provide a framework; the challenge is implementation, auditability and partner-ecosystem coverage.
+ESG Risks, Data Gaps and Priorities
+Scope 3 methodology, customer-use emissions and hyperscaler dependencies complicate climate steering.
+AI and cloud transformation may increase energy demand and skills requirements.
+Cybersecurity, data protection and service continuity are business-critical.
+Data gaps remain around externally evidenced social and D&I outcomes and future Scope 3 methodology changes.
+Prioritized Monitoring Questions
+Which ESG metrics are externally assured in the next reporting cycle, and which statements still rely on management assertions or modeled assumptions?
+How do absolute emissions, energy demand, water impact and Scope 3 categories develop relative to revenue, cloud, platform or logistics growth?
+Which ESG targets are linked to executive compensation, capital allocation, supplier management and product development?
+Which complaints, audits, incidents or stakeholder feedback show the real effectiveness of social and governance programs rather than only process coverage?
+Which DataNXT answers should be deepened with additional primary documents, such as assurance statements, regional environmental metrics, supplier lists or audit reports?
+Source Appendix
+The table lists the most important sources used in the DataNXT workflow and in the local source audit.
+Category | Key statement / metric
+Business model | Cloud subscriptions, software licenses, support, consulting, training and SAP Business AI.
+Cloud CSAT | 2025 Cloud CSAT score of 75%.
+Climate | Net-zero target by 2030; SBTi-validated pathway with at least 90% gross GHG emissions reduction.
+E-waste | 2025: 797 metric tons of e-waste, 764 metric tons diverted; 4% not recycled.
+Workforce | 2025: 111,397 employees; 39,891 women, 71,503 men and 3 other/not reported.
+Governance | European SE with Supervisory Board, Executive Board and Annual General Meeting; ESG/CSRD embedded in the Integrated Report.
+Source | Use
+SAP Integrated Report 2025 | https://www.sap.com/integrated-reports/2025/en.html
+SAP CSRD Sustainability Statement | https://www.sap.com/integrated-reports/2025/en/csrd.html
+SAP Environmental Performance | https://www.sap.com/integrated-reports/2025/en/csrd/environmental-performance.html
+SAP Social Performance | https://www.sap.com/integrated-reports/2025/en/csrd/social-performance.html
+SAP Annual Report Form 20-F 2025 | Local: data/sap/SAP 2025 Annual Report on Form 20-F.pdf
