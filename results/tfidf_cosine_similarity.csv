@@ -1,0 +1,5 @@
+company,Amazon,Microsoft,SAP,Zalando
+Amazon,1.0,0.3566,0.3127,0.3127
+Microsoft,0.3566,1.0,0.3789,0.2977
+SAP,0.3127,0.3789,1.0,0.3108
+Zalando,0.3127,0.2977,0.3108,1.0

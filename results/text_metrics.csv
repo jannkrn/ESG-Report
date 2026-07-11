@@ -1,0 +1,5 @@
+company,word_count,sentence_count,avg_sentence_length,unique_terms,lexical_diversity,numeric_mentions,numeric_mentions_per_1000_words
+Amazon,1061,62,17.11,380,0.574,46,43.36
+Microsoft,914,54,16.93,324,0.5714,36,39.39
+SAP,883,53,16.66,315,0.5676,51,57.76
+Zalando,1115,67,16.64,410,0.6222,110,98.65

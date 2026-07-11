@@ -1,4 +1,4 @@
-# DataNXT Workflow Documentation
+﻿# DataNXT Workflow Documentation
 
 ## Primary company
 
@@ -82,13 +82,13 @@ Current status:
 
 All local PDF sources in `data/amazon`, `data/microsoft`, `data/sap` and `data/zalando` were extracted into a local working JSON file for report drafting. This preserves report generation progress even where DataNXT upload or response generation is limited by the browser UI.
 
-## 2026-07-11 Abschluss DataNXT und Report-Generierung
+## 2026-07-11 DataNXT Completion and Report Generation
 
-- DataNXT-Projekte fuer Amazon, Microsoft, SAP und Zalando wurden auf eine einheitliche Vier-Task-Struktur General Information, Environmental, Social und Governance gebracht bzw. fachlich ergaenzt.
-- Zalando wurde nach manuellem Upload der fuenf lokalen PDFs vollstaendig in DataNXT befuellt. Fuer General, Environmental und Social wurde der 328-seitige Zalando Annual Report 2025 genutzt; Social zusaetzlich mit D&I Appendix; Governance mit Annual-Report-Uebersicht, AGM 2026 und DSA Risk Report 2025.
-- Alle wichtigen DataNXT-Antworten wurden als relevant markiert. Bei SAP Social blieb eine aeltere relevante D&I-Antwort bestehen und wurde im finalen Report durch lokale Annual-/Integrated-Report-Fundstellen ergaenzt.
-- Die lokale Quellenbasis wurde mit offiziellen Primaerquellen und Benchmark-/Vergleichsquellen in data/sources.csv aktualisiert. Offizielle ESG-/Sustainability-/Integrated Reports werden weiterhin als Benchmark und Validierung behandelt, nicht als einzige DataNXT-Arbeitsgrundlage.
-- Es wurden vier deutsche ESG Reports als DOCX erzeugt: Amazon_ESG_Report_Generated.docx, Microsoft_ESG_Report_Generated.docx, SAP_ESG_Report_Generated.docx und Zalando_ESG_Report_Generated.docx.
-- Zielordner: C:\Jann\Studium\2. Semester\ESG-Report\reports\generated.
-- QA: DOCX-Strukturpruefung erfolgreich fuer alle vier Reports (Methodik, DataNXT-Status, E/S/G-Abschnitte, Quellenanhang, 1-Zoll-Margins, Tabellenstruktur, keine TODO/TBD-Platzhalter). Visuelle PNG-Render-QA konnte nicht ausgefuehrt werden, weil LibreOffice/soffice in der Codex-Runtime nicht installiert bzw. nicht im Systempfad auffindbar war.
+- The DataNXT projects for Amazon, Microsoft, SAP and Zalando were aligned with the same four-task structure: General Information, Environmental, Social and Governance.
+- After the manual upload of the five local Zalando PDFs, the Zalando project was completed in DataNXT. General, Environmental and Social used the 328-page Zalando Annual Report 2025; Social additionally used the D&I appendix; Governance used the annual-report overview, AGM 2026 invitation and DSA Risk Report 2025.
+- The important DataNXT answers were marked as relevant. For SAP Social, an older relevant D&I answer remained in place and was supplemented in the final report with local Annual/Integrated Report evidence.
+- The local source base was updated in data/sources.csv with additional official primary sources and benchmark/comparison sources. Official ESG, sustainability and integrated reports remain benchmark and validation sources rather than the only DataNXT working basis.
+- Four English ESG reports were generated as DOCX files: Amazon_ESG_Report_Generated.docx, Microsoft_ESG_Report_Generated.docx, SAP_ESG_Report_Generated.docx and Zalando_ESG_Report_Generated.docx.
+- Target folder: C:\Jann\Studium\2. Semester\ESG-Report\reports\generated.
+- QA: the English DOCX structure audit passed for all four reports (Methodology, DataNXT Status, E/S/G sections, Source Appendix, 1-inch margins, table structure, no TODO/TBD placeholders and no German section markers). Visual PNG render QA could not be performed because LibreOffice/soffice is not installed or available on the system path in the Codex runtime.
 

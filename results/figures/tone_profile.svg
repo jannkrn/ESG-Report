@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="450.0" y="30.0" font-family="Arial, sans-serif" font-size="18" fill="#111827" text-anchor="middle" font-weight="700">Tone Signals by Report</text>
+<rect x="130" y="48" width="12" height="12" rx="2" fill="#15803D"/>
+<text x="148.0" y="59.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="400">Success</text>
+<rect x="280" y="48" width="12" height="12" rx="2" fill="#DC2626"/>
+<text x="298.0" y="59.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="400">Risk</text>
+<rect x="430" y="48" width="12" height="12" rx="2" fill="#B45309"/>
+<text x="448.0" y="59.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="400">Controversy</text>
+<rect x="580" y="48" width="12" height="12" rx="2" fill="#7C3AED"/>
+<text x="598.0" y="59.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="400">Targets and tradeoffs</text>
+<text x="114.0" y="102.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Amazon</text>
+<rect x="130.0" y="84.0" width="106.5" height="28" fill="#15803D"/>
+<text x="183.3" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">6</text>
+<rect x="236.5" y="84.0" width="230.8" height="28" fill="#DC2626"/>
+<text x="352.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">13</text>
+<rect x="467.4" y="84.0" width="106.5" height="28" fill="#B45309"/>
+<text x="520.6" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">6</text>
+<rect x="573.9" y="84.0" width="124.3" height="28" fill="#7C3AED"/>
+<text x="636.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">7</text>
+<text x="866.0" y="104.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="700">32</text>
+<text x="114.0" y="148.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Microsoft</text>
+<rect x="130.0" y="130.0" width="88.8" height="28" fill="#15803D"/>
+<text x="174.4" y="150.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">5</text>
+<rect x="218.8" y="130.0" width="195.3" height="28" fill="#DC2626"/>
+<text x="316.4" y="150.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">11</text>
+<rect x="414.1" y="130.0" width="53.3" height="28" fill="#B45309"/>
+<text x="440.7" y="150.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">3</text>
+<rect x="467.4" y="130.0" width="106.5" height="28" fill="#7C3AED"/>
+<text x="520.6" y="150.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">6</text>
+<text x="866.0" y="150.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="700">25</text>
+<text x="114.0" y="194.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">SAP</text>
+<rect x="130.0" y="176.0" width="177.6" height="28" fill="#15803D"/>
+<text x="218.8" y="196.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">10</text>
+<rect x="307.6" y="176.0" width="159.8" height="28" fill="#DC2626"/>
+<text x="387.5" y="196.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">9</text>
+<rect x="467.4" y="176.0" width="35.5" height="28" fill="#B45309"/>
+<text x="485.1" y="196.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">2</text>
+<rect x="502.9" y="176.0" width="159.8" height="28" fill="#7C3AED"/>
+<text x="582.8" y="196.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">9</text>
+<text x="866.0" y="196.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="700">30</text>
+<text x="114.0" y="240.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Zalando</text>
+<rect x="130.0" y="222.0" width="124.3" height="28" fill="#15803D"/>
+<text x="192.1" y="242.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">7</text>
+<rect x="254.3" y="222.0" width="213.1" height="28" fill="#DC2626"/>
+<text x="360.8" y="242.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">12</text>
+<rect x="467.4" y="222.0" width="177.6" height="28" fill="#B45309"/>
+<text x="556.1" y="242.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">10</text>
+<rect x="644.9" y="222.0" width="213.1" height="28" fill="#7C3AED"/>
+<text x="751.5" y="242.0" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">12</text>
+<text x="866.0" y="242.0" font-family="Arial, sans-serif" font-size="11" fill="#374151" text-anchor="start" font-weight="700">41</text>
+<line x1="130" y1="268" x2="858" y2="268" stroke="#D1D5DB"/>
+<text x="858.0" y="292.0" font-family="Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="end" font-weight="400">Total keyword hits</text>
+</svg>

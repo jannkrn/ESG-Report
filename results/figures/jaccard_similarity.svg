@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="516" viewBox="0 0 556 516">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="278.0" y="30.0" font-family="Arial, sans-serif" font-size="18" fill="#111827" text-anchor="middle" font-weight="700">Jaccard Similarity</text>
+<text x="174.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Amazon</text>
+<text x="266.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Microsoft</text>
+<text x="358.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">SAP</text>
+<text x="450.0" y="60.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Zalando</text>
+<text x="110.0" y="128.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Amazon</text>
+<rect x="128" y="78" width="92" height="92" fill="#1E40AF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="174.0" y="129.0" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="700">1.00</text>
+<rect x="220" y="78" width="92" height="92" fill="#A9B9E4" stroke="#FFFFFF" stroke-width="2"/>
+<text x="266.0" y="129.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.34</text>
+<rect x="312" y="78" width="92" height="92" fill="#AFBEE6" stroke="#FFFFFF" stroke-width="2"/>
+<text x="358.0" y="129.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.31</text>
+<rect x="404" y="78" width="92" height="92" fill="#B1C0E7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="450.0" y="129.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.30</text>
+<text x="110.0" y="220.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Microsoft</text>
+<rect x="128" y="170" width="92" height="92" fill="#A9B9E4" stroke="#FFFFFF" stroke-width="2"/>
+<text x="174.0" y="221.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.34</text>
+<rect x="220" y="170" width="92" height="92" fill="#1E40AF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="266.0" y="221.0" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="700">1.00</text>
+<rect x="312" y="170" width="92" height="92" fill="#A4B5E2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="358.0" y="221.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.36</text>
+<rect x="404" y="170" width="92" height="92" fill="#B2C1E8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="450.0" y="221.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.29</text>
+<text x="110.0" y="312.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">SAP</text>
+<rect x="128" y="262" width="92" height="92" fill="#AFBEE6" stroke="#FFFFFF" stroke-width="2"/>
+<text x="174.0" y="313.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.31</text>
+<rect x="220" y="262" width="92" height="92" fill="#A4B5E2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="266.0" y="313.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.36</text>
+<rect x="312" y="262" width="92" height="92" fill="#1E40AF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="358.0" y="313.0" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="700">1.00</text>
+<rect x="404" y="262" width="92" height="92" fill="#AFBEE6" stroke="#FFFFFF" stroke-width="2"/>
+<text x="450.0" y="313.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.31</text>
+<text x="110.0" y="404.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="end" font-weight="700">Zalando</text>
+<rect x="128" y="354" width="92" height="92" fill="#B1C0E7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="174.0" y="405.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.30</text>
+<rect x="220" y="354" width="92" height="92" fill="#B2C1E8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="266.0" y="405.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.29</text>
+<rect x="312" y="354" width="92" height="92" fill="#AFBEE6" stroke="#FFFFFF" stroke-width="2"/>
+<text x="358.0" y="405.0" font-family="Arial, sans-serif" font-size="13" fill="#111827" text-anchor="middle" font-weight="700">0.31</text>
+<rect x="404" y="354" width="92" height="92" fill="#1E40AF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="450.0" y="405.0" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="700">1.00</text>
+</svg>

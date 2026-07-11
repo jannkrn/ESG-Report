@@ -1,0 +1,5 @@
+company,success_hits,risk_hits,controversy_hits,target_tradeoff_hits,risk_to_success_ratio
+Amazon,6,13,6,7,2.17
+Microsoft,5,11,3,6,2.2
+SAP,10,9,2,9,0.9
+Zalando,7,12,10,12,1.71

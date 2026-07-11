@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="440" viewBox="0 0 820 440">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="410.0" y="28.0" font-family="Arial, sans-serif" font-size="18" fill="#111827" text-anchor="middle" font-weight="700">Word Count by Report</text>
+<text transform="rotate(-90 18 215.0)" x="18.0" y="215.0" font-family="Arial, sans-serif" font-size="12" fill="#4B5563" text-anchor="middle" font-weight="600">Words</text>
+<line x1="76" y1="370.0" x2="788" y2="370.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="374.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">0</text>
+<line x1="76" y1="308.0" x2="788" y2="308.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="312.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">256</text>
+<line x1="76" y1="246.0" x2="788" y2="246.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="250.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">513</text>
+<line x1="76" y1="184.0" x2="788" y2="184.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="188.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">769</text>
+<line x1="76" y1="122.0" x2="788" y2="122.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="126.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">1026</text>
+<line x1="76" y1="60.0" x2="788" y2="60.0" stroke="#E5E7EB" stroke-width="1"/>
+<text x="66.0" y="64.0" font-family="Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="end" font-weight="400">1282</text>
+<line x1="76" y1="60" x2="76" y2="370" stroke="#9CA3AF"/>
+<line x1="76" y1="370" x2="788" y2="370" stroke="#9CA3AF"/>
+<rect x="76.0" y="113.5" width="157.0" height="256.5" rx="4" fill="#2563EB"/>
+<text x="154.5" y="105.5" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="700">1061</text>
+<text x="154.5" y="394.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="600">Amazon</text>
+<rect x="261.0" y="149.0" width="157.0" height="221.0" rx="4" fill="#2563EB"/>
+<text x="339.5" y="141.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="700">914</text>
+<text x="339.5" y="394.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="600">Microsoft</text>
+<rect x="446.0" y="156.5" width="157.0" height="213.5" rx="4" fill="#2563EB"/>
+<text x="524.5" y="148.5" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="700">883</text>
+<text x="524.5" y="394.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="600">SAP</text>
+<rect x="631.0" y="100.4" width="157.0" height="269.6" rx="4" fill="#2563EB"/>
+<text x="709.5" y="92.4" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="700">1115</text>
+<text x="709.5" y="394.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="600">Zalando</text>
+</svg>

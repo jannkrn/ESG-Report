@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="720" viewBox="0 0 980 720">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="490.0" y="30.0" font-family="Arial, sans-serif" font-size="18" fill="#111827" text-anchor="middle" font-weight="700">Most Frequent Terms After ESG Stopword Filtering</text>
+<text x="34.0" y="44.0" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="start" font-weight="700">Amazon</text>
+<rect x="34" y="58" width="455" height="300" fill="#F9FAFB" stroke="#E5E7EB" rx="6"/>
+<text x="50.0" y="98.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">aws</text>
+<rect x="184" y="87" width="260.0" height="14" rx="3" fill="#2563EB"/>
+<text x="452.0" y="99.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">10</text>
+<text x="50.0" y="123.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">energy</text>
+<rect x="184" y="112" width="234.0" height="14" rx="3" fill="#2563EB"/>
+<text x="426.0" y="124.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">9</text>
+<text x="50.0" y="148.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">datanxt</text>
+<rect x="184" y="137" width="208.0" height="14" rx="3" fill="#2563EB"/>
+<text x="400.0" y="149.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">8</text>
+<text x="50.0" y="173.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">audit</text>
+<rect x="184" y="162" width="208.0" height="14" rx="3" fill="#2563EB"/>
+<text x="400.0" y="174.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">8</text>
+<text x="50.0" y="198.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">relevant</text>
+<rect x="184" y="187" width="182.0" height="14" rx="3" fill="#2563EB"/>
+<text x="374.0" y="199.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">7</text>
+<text x="50.0" y="223.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">executive</text>
+<rect x="184" y="212" width="156.0" height="14" rx="3" fill="#2563EB"/>
+<text x="348.0" y="224.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="248.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">revenue</text>
+<rect x="184" y="237" width="156.0" height="14" rx="3" fill="#2563EB"/>
+<text x="348.0" y="249.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="273.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">usd</text>
+<rect x="184" y="262" width="156.0" height="14" rx="3" fill="#2563EB"/>
+<text x="348.0" y="274.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="298.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">billion</text>
+<rect x="184" y="287" width="156.0" height="14" rx="3" fill="#2563EB"/>
+<text x="348.0" y="299.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="323.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">risk</text>
+<rect x="184" y="312" width="130.0" height="14" rx="3" fill="#2563EB"/>
+<text x="322.0" y="324.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="510.0" y="44.0" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="start" font-weight="700">Microsoft</text>
+<rect x="510" y="58" width="455" height="300" fill="#F9FAFB" stroke="#E5E7EB" rx="6"/>
+<text x="526.0" y="98.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">water</text>
+<rect x="660" y="87" width="260.0" height="14" rx="3" fill="#0E7490"/>
+<text x="928.0" y="99.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">10</text>
+<text x="526.0" y="123.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">digital</text>
+<rect x="660" y="112" width="234.0" height="14" rx="3" fill="#0E7490"/>
+<text x="902.0" y="124.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">9</text>
+<text x="526.0" y="148.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">datanxt</text>
+<rect x="660" y="137" width="208.0" height="14" rx="3" fill="#0E7490"/>
+<text x="876.0" y="149.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">8</text>
+<text x="526.0" y="173.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">cloud</text>
+<rect x="660" y="162" width="208.0" height="14" rx="3" fill="#0E7490"/>
+<text x="876.0" y="174.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">8</text>
+<text x="526.0" y="198.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">emissions</text>
+<rect x="660" y="187" width="182.0" height="14" rx="3" fill="#0E7490"/>
+<text x="850.0" y="199.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">7</text>
+<text x="526.0" y="223.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">relevant</text>
+<rect x="660" y="212" width="156.0" height="14" rx="3" fill="#0E7490"/>
+<text x="824.0" y="224.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="248.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">board</text>
+<rect x="660" y="237" width="156.0" height="14" rx="3" fill="#0E7490"/>
+<text x="824.0" y="249.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="273.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">responsible</text>
+<rect x="660" y="262" width="156.0" height="14" rx="3" fill="#0E7490"/>
+<text x="824.0" y="274.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="298.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">transparency</text>
+<rect x="660" y="287" width="130.0" height="14" rx="3" fill="#0E7490"/>
+<text x="798.0" y="299.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="526.0" y="323.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">diversity</text>
+<rect x="660" y="312" width="130.0" height="14" rx="3" fill="#0E7490"/>
+<text x="798.0" y="324.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="34.0" y="372.0" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="start" font-weight="700">SAP</text>
+<rect x="34" y="386" width="455" height="300" fill="#F9FAFB" stroke="#E5E7EB" rx="6"/>
+<text x="50.0" y="426.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">cloud</text>
+<rect x="184" y="415" width="260.0" height="14" rx="3" fill="#7C3AED"/>
+<text x="452.0" y="427.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">18</text>
+<text x="50.0" y="451.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">datanxt</text>
+<rect x="184" y="440" width="101.1" height="14" rx="3" fill="#7C3AED"/>
+<text x="293.1" y="452.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">7</text>
+<text x="50.0" y="476.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">relevant</text>
+<rect x="184" y="465" width="86.7" height="14" rx="3" fill="#7C3AED"/>
+<text x="278.7" y="477.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="501.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">ethics</text>
+<rect x="184" y="490" width="86.7" height="14" rx="3" fill="#7C3AED"/>
+<text x="278.7" y="502.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="526.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">csrd</text>
+<rect x="184" y="515" width="86.7" height="14" rx="3" fill="#7C3AED"/>
+<text x="278.7" y="527.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="551.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">scope</text>
+<rect x="184" y="540" width="86.7" height="14" rx="3" fill="#7C3AED"/>
+<text x="278.7" y="552.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="50.0" y="576.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">integrated</text>
+<rect x="184" y="565" width="72.2" height="14" rx="3" fill="#7C3AED"/>
+<text x="264.2" y="577.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="50.0" y="601.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">reporting</text>
+<rect x="184" y="590" width="72.2" height="14" rx="3" fill="#7C3AED"/>
+<text x="264.2" y="602.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="50.0" y="626.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">software</text>
+<rect x="184" y="615" width="72.2" height="14" rx="3" fill="#7C3AED"/>
+<text x="264.2" y="627.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="50.0" y="651.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">e-waste</text>
+<rect x="184" y="640" width="72.2" height="14" rx="3" fill="#7C3AED"/>
+<text x="264.2" y="652.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+<text x="510.0" y="372.0" font-family="Arial, sans-serif" font-size="14" fill="#111827" text-anchor="start" font-weight="700">Zalando</text>
+<rect x="510" y="386" width="455" height="300" fill="#F9FAFB" stroke="#E5E7EB" rx="6"/>
+<text x="526.0" y="426.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">scope</text>
+<rect x="660" y="415" width="260.0" height="14" rx="3" fill="#B45309"/>
+<text x="928.0" y="427.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">13</text>
+<text x="526.0" y="451.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">datanxt</text>
+<rect x="660" y="440" width="180.0" height="14" rx="3" fill="#B45309"/>
+<text x="848.0" y="452.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">9</text>
+<text x="526.0" y="476.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">platform</text>
+<rect x="660" y="465" width="180.0" height="14" rx="3" fill="#B45309"/>
+<text x="848.0" y="477.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">9</text>
+<text x="526.0" y="501.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">relevant</text>
+<rect x="660" y="490" width="160.0" height="14" rx="3" fill="#B45309"/>
+<text x="828.0" y="502.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">8</text>
+<text x="526.0" y="526.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">dsa</text>
+<rect x="660" y="515" width="140.0" height="14" rx="3" fill="#B45309"/>
+<text x="808.0" y="527.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">7</text>
+<text x="526.0" y="551.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">risk</text>
+<rect x="660" y="540" width="120.0" height="14" rx="3" fill="#B45309"/>
+<text x="788.0" y="552.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="576.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">emissions</text>
+<rect x="660" y="565" width="120.0" height="14" rx="3" fill="#B45309"/>
+<text x="788.0" y="577.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="601.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">partners</text>
+<rect x="660" y="590" width="120.0" height="14" rx="3" fill="#B45309"/>
+<text x="788.0" y="602.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="626.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">targets</text>
+<rect x="660" y="615" width="120.0" height="14" rx="3" fill="#B45309"/>
+<text x="788.0" y="627.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">6</text>
+<text x="526.0" y="651.0" font-family="Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="400">audit</text>
+<rect x="660" y="640" width="100.0" height="14" rx="3" fill="#B45309"/>
+<text x="768.0" y="652.0" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="start" font-weight="700">5</text>
+</svg>

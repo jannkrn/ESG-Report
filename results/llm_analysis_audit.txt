@@ -1,0 +1,6 @@
+Structural DOCX audit for ESG_LLM_Qualitative_Analysis.docx
+Paragraphs: 41
+Tables: 5
+Preset: standard_business_brief
+Visual render QA: attempted with render_docx.py; skipped because LibreOffice/soffice executable was not found
+Status: PASS
