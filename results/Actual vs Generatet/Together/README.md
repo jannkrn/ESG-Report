@@ -1,10 +1,10 @@
-# Together - Final ESG Analysis Report
+﻿# Together - Final ESG Analysis Report
 
 This folder contains the final integrated report combining the Python text-analysis findings and the LLM-style qualitative interpretation.
 
 Files:
 
-- `Final_ESG_Report_Analysis_Together_FINAL.docx`: final combined report with embedded visualizations, metric definitions, and synthesis.
+- `Final_ESG_Report_Analysis.docx`: final combined report with embedded visualizations, metric definitions, and synthesis.
 - `together_report_audit.txt`: structural DOCX audit.
 - `figures/`: PNG chart files embedded in the report.
 
@@ -22,3 +22,4 @@ SAP source note: SAP's official Integrated Report 2025 PDF is listed by SAP, but
 ## DOCX render QA
 
 Visual DOCX render QA was attempted with render_docx.py, but LibreOffice/soffice was not available in this environment (WinError 2). The final report passed structural QA and contains embedded visuals, but it was not rendered to PNG in this environment.
+
