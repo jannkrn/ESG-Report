@@ -1,5 +1,5 @@
-Structural DOCX audit for Final_ESG_Report_Analysis_Together_FINAL.docx
-Paragraphs: 63
+Structural DOCX audit for Final_ESG_Report_Analysis.docx
+Paragraphs: 67
 Tables: 5
 Embedded visuals: 6
 Preset: standard_business_brief
