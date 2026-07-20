@@ -32,8 +32,8 @@
 <text x="387.2" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Microsoft</text>
 <rect x="573.8" y="350.1" width="34" height="1.9" rx="4" fill="#2563EB"/>
 <text x="590.8" y="344.1" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">883</text>
-<rect x="615.8" y="126.9" width="34" height="225.1" rx="4" fill="#0E7490"/>
-<text x="632.8" y="120.9" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">105533</text>
+<rect x="615.8" y="343.8" width="34" height="8.2" rx="4" fill="#0E7490"/>
+<text x="632.8" y="337.8" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">3864</text>
 <text x="594.8" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">SAP</text>
 <rect x="781.2" y="349.6" width="34" height="2.4" rx="4" fill="#2563EB"/>
 <text x="798.2" y="343.6" font-family="Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="700">1115</text>

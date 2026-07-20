@@ -1,3 +1,5 @@
+> **Legacy notice:** This folder contains an earlier generated-only analysis from 2026-07-11. It is retained for traceability, but the final submission analysis is in `results/Actual vs Generatet/`.
+
 # ESG Report Analysis Results
 
 Generated on 2026-07-11.

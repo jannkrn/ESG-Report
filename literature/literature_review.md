@@ -46,10 +46,16 @@ Therefore, a company’s official ESG report should not be treated as a fully ob
 
 ## References
 
-Berg, F., Kölbel, J. F., & Rigobon, R. (2022). Aggregate Confusion: The Divergence of ESG Ratings. *Review of Finance, 26*(6), 1315–1344.
+Berg, F., Kolbel, J. F., & Rigobon, R. (2022). Aggregate confusion: The divergence of ESG ratings. *Review of Finance, 26*(6), 1315-1344. https://doi.org/10.1093/rof/rfac033
 
-European Commission. Corporate Sustainability Reporting Directive and European Sustainability Reporting Standards.
+European Parliament and Council of the European Union. (2022). Directive (EU) 2022/2464 of the European Parliament and of the Council of 14 December 2022 as regards corporate sustainability reporting. *Official Journal of the European Union*.
 
-Global Reporting Initiative. GRI Standards.
+European Commission. (2023). Commission Delegated Regulation (EU) 2023/2772 of 31 July 2023 supplementing Directive 2013/34/EU as regards sustainability reporting standards. *Official Journal of the European Union*.
 
-IFRS Foundation. IFRS S2 Climate-related Disclosures.
+Global Reporting Initiative. (2021). *GRI 1: Foundation 2021*. Global Sustainability Standards Board.
+
+IFRS Foundation. (2023). *IFRS S2 Climate-related Disclosures*. International Sustainability Standards Board.
+
+Loughran, T., & McDonald, B. (2011). When is a liability not a liability? Textual analysis, dictionaries, and 10-Ks. *The Journal of Finance, 66*(1), 35-65. https://doi.org/10.1111/j.1540-6261.2010.01625.x
+
+Task Force on Climate-related Financial Disclosures. (2017). *Recommendations of the Task Force on Climate-related Financial Disclosures*. Financial Stability Board.

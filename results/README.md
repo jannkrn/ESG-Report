@@ -1,6 +1,6 @@
 # ESG Report Analysis Results
 
-Generated on 2026-07-11.
+Generated on 2026-07-20.
 
 ## Scope
 
@@ -19,9 +19,9 @@ ESG reporting quality depends on whether disclosures cover material environmenta
 
 ## Main empirical findings
 
-- The generated reports are much shorter than the official reports. Across the four companies, generated report length ranges from 0.84% to 2.51% of the corresponding official report.
-- The closest generated-vs-actual vocabulary match is Microsoft by TF-IDF cosine similarity (0.2954).
-- The lowest generated-vs-actual vocabulary match is SAP (0.2473), indicating a larger difference in framing or disclosure vocabulary.
+- The generated reports are much shorter than the official reports. Across the four companies, generated report length ranges from 0.86% to 22.85% of the corresponding official report.
+- The closest generated-vs-actual vocabulary match is SAP by TF-IDF cosine similarity (0.3436).
+- The lowest generated-vs-actual vocabulary match is Zalando (0.2665), indicating a larger difference in framing or disclosure vocabulary.
 - Official reports contain more detailed framework language, more disclosure-boundary information, more tables, and more company-specific evidence. Generated reports are clearer as compact summaries but weaker as audit-ready disclosures.
 - Generated reports often show high numeric density per 1,000 words because they are short and condensed. This should not be confused with greater evidence depth; official reports contain much more total quantified disclosure.
 
@@ -50,3 +50,11 @@ The comparison shows why corporate ESG disclosure is difficult to reproduce with
 ## Reproducibility
 
 Use `Actual vs Generatet/Python Analyse/requirements.txt` and run `analysis.ipynb`. The notebook uses relative paths and expects the repository structure to contain `reports/generated` and `reports/actual`.
+## Formal literature basis
+
+The literature basis combines ESG reporting frameworks and text-analysis methods: Berg, Kolbel, and Rigobon (2022) motivate caution around divergent ESG ratings; the GRI Standards define impact-oriented sustainability disclosure; the EU CSRD and ESRS define European sustainability reporting requirements; TCFD and IFRS S2 frame climate-related financial disclosure; and Loughran and McDonald (2011) motivate dictionary-based financial text analysis.
+
+Formal references are listed in `literature/literature_review.md`.
+## SAP benchmark update
+
+SAP benchmark note: SAP's primary actual benchmark is now `reports/actual/SAP Integrated Report 2025 Official Online Benchmark.html`, a local HTML capture of official SAP Integrated Report 2025 online pages. This replaced the earlier SEC Form 20-F benchmark because the local SAP Integrated Report PDF copy was incomplete.

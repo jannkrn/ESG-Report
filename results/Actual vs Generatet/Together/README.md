@@ -4,7 +4,7 @@ This folder contains the final integrated report combining the Python text-analy
 
 Files:
 
-- `Final_ESG_Report_Analysis_Together_with_metric_definitions.docx`: final combined report with embedded visualizations, metric definitions, and synthesis.
+- `Final_ESG_Report_Analysis_Together_FINAL.docx`: final combined report with embedded visualizations, metric definitions, and synthesis.
 - `together_report_audit.txt`: structural DOCX audit.
 - `figures/`: PNG chart files embedded in the report.
 
@@ -17,7 +17,7 @@ Embedded figures:
 - `figures/together_risk_success_gap.png`
 - `figures/together_tone_ratio.png`
 
-SAP source note: SAP's official Integrated Report 2025 PDF is listed on SAP Investor Relations, but direct shell download was blocked by SAP's CDN in this environment. The comparison therefore uses SAP's official SEC 2025 Annual Report Form 20-F as the full local actual benchmark.
+SAP source note: SAP's official Integrated Report 2025 PDF is listed by SAP, but direct shell download was blocked by SAP's CDN in this environment. The final comparison therefore uses an official SAP online Integrated Report benchmark captured from SAP's public Integrated Report, CSRD, Environmental Performance, Social Performance, Report Data Hub, and governance pages.
 
 ## DOCX render QA
 

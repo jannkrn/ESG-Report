@@ -24,18 +24,18 @@
 <rect x="197.2" y="334.2" width="34" height="17.8" rx="4" fill="#B45309"/>
 <text x="214.2" y="328.2" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.06</text>
 <text x="176.2" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Amazon</text>
-<rect x="351.8" y="266.3" width="34" height="85.7" rx="4" fill="#7C3AED"/>
-<text x="368.8" y="260.3" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.30</text>
+<rect x="351.8" y="271.8" width="34" height="80.2" rx="4" fill="#7C3AED"/>
+<text x="368.8" y="265.8" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.28</text>
 <rect x="393.8" y="336.3" width="34" height="15.7" rx="4" fill="#B45309"/>
 <text x="410.8" y="330.3" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.05</text>
 <text x="372.8" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Microsoft</text>
-<rect x="548.2" y="280.3" width="34" height="71.7" rx="4" fill="#7C3AED"/>
-<text x="565.2" y="274.3" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.25</text>
-<rect x="590.2" y="338.8" width="34" height="13.2" rx="4" fill="#B45309"/>
-<text x="607.2" y="332.8" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.05</text>
+<rect x="548.2" y="252.4" width="34" height="99.6" rx="4" fill="#7C3AED"/>
+<text x="565.2" y="246.4" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.34</text>
+<rect x="590.2" y="312.4" width="34" height="39.6" rx="4" fill="#B45309"/>
+<text x="607.2" y="306.4" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.14</text>
 <text x="569.2" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">SAP</text>
-<rect x="744.8" y="271.8" width="34" height="80.2" rx="4" fill="#7C3AED"/>
-<text x="761.8" y="265.8" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.28</text>
+<rect x="744.8" y="274.7" width="34" height="77.3" rx="4" fill="#7C3AED"/>
+<text x="761.8" y="268.7" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.27</text>
 <rect x="786.8" y="336.1" width="34" height="15.9" rx="4" fill="#B45309"/>
 <text x="803.8" y="330.1" font-family="Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="700">0.05</text>
 <text x="765.8" y="376.0" font-family="Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Zalando</text>

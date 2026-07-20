@@ -51,7 +51,7 @@ ACTUAL_FILES = {
         REPORTS_ACTUAL / "microsoft_2025_environmental_sustainability_report.pdf",
         REPORTS_ACTUAL / "microsoft_2025_impact_summary.pdf",
     ],
-    "SAP": [REPORTS_ACTUAL / "SAP 2025 Annual Report Form 20-F.html"],
+    "SAP": [REPORTS_ACTUAL / "SAP Integrated Report 2025 Official Online Benchmark.html"],
     "Zalando": [REPORTS_ACTUAL / "zalando-se_en_full-csrd-esrs-report_annual-report_2025.pdf"],
 }
 
@@ -339,7 +339,9 @@ def extract_actual_text(path: Path) -> tuple[str, object]:
     if path.suffix.lower() == ".pdf":
         return extract_pdf_text(path)
     if path.suffix.lower() in {".htm", ".html"}:
-        return extract_html_text(path), "SEC HTML filing"
+        if "Integrated Report 2025 Official Online Benchmark" in path.name:
+            return extract_html_text(path), "Official SAP online Integrated Report pages"
+        return extract_html_text(path), "HTML benchmark source"
     raise ValueError(f"Unsupported actual report type: {path}")
 
 
